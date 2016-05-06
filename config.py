@@ -18,7 +18,7 @@ class Config(object):
     SESSION_COOKIE_HTTPONLY = True
     SESSION_COOKIE_SECURE = True
     DM_S3_DOCUMENT_BUCKET = None
-    DM_DOCUMENTS_URL = 'https://assets.dev.digitalmarketplace.service.gov.uk'
+    DM_DOCUMENTS_URL = 'https://assets.cirrus.dev.pebblecode.com'
     DM_DATA_API_URL = None
     DM_DATA_API_AUTH_TOKEN = None
     SECRET_KEY = None
@@ -48,9 +48,9 @@ class Config(object):
     INVITE_EMAIL_SALT = 'InviteEmailSalt'
 
     DM_MANDRILL_API_KEY = None
-    INVITE_EMAIL_NAME = 'Digital Marketplace Admin'
-    INVITE_EMAIL_FROM = 'enquiries@digitalmarketplace.service.gov.uk'
-    INVITE_EMAIL_SUBJECT = 'Your Digital Marketplace invitation'
+    INVITE_EMAIL_NAME = 'Cirrus Admin'
+    INVITE_EMAIL_FROM = 'enquiries@cirrus.pebblecode.com'
+    INVITE_EMAIL_SUBJECT = 'Your Cirrus Marketplace invitation'
     CREATE_USER_PATH = 'suppliers/create-user'
 
     @staticmethod
@@ -67,47 +67,45 @@ class Test(Config):
     DEBUG = True
     AUTHENTICATION = True
     WTF_CSRF_ENABLED = False
-    DM_DOCUMENTS_URL = 'https://assets.test.digitalmarketplace.service.gov.uk'
+    DM_DOCUMENTS_URL = 'https://assets.test.cirrus.pebblecode.com'
     SECRET_KEY = "test_secret"
 
     DM_LOG_LEVEL = 'CRITICAL'
     SHARED_EMAIL_KEY = 'KEY'
     INVITE_EMAIL_SALT = 'SALT'
     DM_MANDRILL_API_KEY = "MANDRILL"
-    DM_COMMUNICATIONS_BUCKET = 'digitalmarketplace-communications-dev-dev'
-    DM_AGREEMENTS_BUCKET = 'digitalmarketplace-documents-dev-dev'
+    DM_COMMUNICATIONS_BUCKET = 'cirrus-communications-dev-dev'
+    DM_AGREEMENTS_BUCKET = 'cirrus-documents-dev-dev'
 
 
 class Development(Config):
     DEBUG = True
     SESSION_COOKIE_SECURE = False
     AUTHENTICATION = True
-    DM_COMMUNICATIONS_BUCKET = 'digitalmarketplace-communications-dev-dev'
-    DM_AGREEMENTS_BUCKET = 'digitalmarketplace-documents-dev-dev'
+    DM_COMMUNICATIONS_BUCKET = 'cirrus-communications-dev-dev'
+    DM_AGREEMENTS_BUCKET = 'cirrus-documents-dev-dev'
 
-    DM_DATA_API_URL = "http://localhost:5000"
-    DM_DATA_API_AUTH_TOKEN = "myToken"
+    DM_DATA_API_URL = os.getenv('DM_DATA_API_URL', "http://localhost:5000")
+    DM_DATA_API_AUTH_TOKEN = os.getenv('DM_API_AUTH_TOKEN' ,"myToken")
     SECRET_KEY = "verySecretKey"
-    DM_S3_DOCUMENT_BUCKET = "digitalmarketplace-documents-dev-dev"
+    DM_S3_DOCUMENT_BUCKET = "cirrus-documents-dev-dev"
     DM_DOCUMENTS_URL = "https://{}.s3-eu-west-1.amazonaws.com".format(DM_S3_DOCUMENT_BUCKET)
     DM_MANDRILL_API_KEY = "not_a_real_key"
     SHARED_EMAIL_KEY = "very_secret"
-    DM_AGREEMENTS_BUCKET = "digitalmarketplace-agreements-dev-dev"
-    DM_COMMUNICATIONS_BUCKET = "digitalmarketplace-communications-dev-dev"
 
 
 class Live(Config):
     DEBUG = False
     AUTHENTICATION = True
     DM_HTTP_PROTO = 'https'
-    DM_DOCUMENTS_URL = 'https://assets.digitalmarketplace.service.gov.uk'
+    DM_DOCUMENTS_URL = 'https://assets.cirrus.pebblecode.com'
 
 
 class Staging(Config):
     DEBUG = False
     AUTHENTICATION = True
     WTF_CSRF_ENABLED = False
-    DM_DOCUMENTS_URL = 'https://assets.digitalmarketplace.service.gov.uk'
+    DM_DOCUMENTS_URL = 'https://assets.cirrus.pebblecode.com'
 
 
 configs = {
