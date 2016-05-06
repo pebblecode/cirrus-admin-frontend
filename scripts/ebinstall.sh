@@ -1,4 +1,4 @@
-curl --silent --location https://rpm.nodesource.com/setup_4.x | bash -
+curl --silent --location https://rpm.nodesource.com/setup_4.x | sh -
 yum -y install nodejs
 yum -y install npm
 npm i
