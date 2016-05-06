@@ -4,4 +4,4 @@ yum -y install npm
 node -v
 npm -v
 npm install
-npm run npm run frontend-build:production
+npm run frontend-build:production
