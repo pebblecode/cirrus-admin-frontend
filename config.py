@@ -86,7 +86,7 @@ class Development(Config):
     DM_AGREEMENTS_BUCKET = 'cirrus-documents-dev-dev'
 
     DM_DATA_API_URL = os.getenv('DM_DATA_API_URL', "http://localhost:5000")
-    DM_DATA_API_AUTH_TOKEN = os.getenv('DM_API_AUTH_TOKEN' ,"myToken")
+    DM_DATA_API_AUTH_TOKEN = os.getenv('DM_API_AUTH_TOKEN', "myToken")
     SECRET_KEY = "verySecretKey"
     DM_S3_DOCUMENT_BUCKET = "cirrus-documents-dev-dev"
     DM_DOCUMENTS_URL = "https://{}.s3-eu-west-1.amazonaws.com".format(DM_S3_DOCUMENT_BUCKET)
