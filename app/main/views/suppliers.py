@@ -6,9 +6,10 @@ from .. import main
 from ... import data_api_client, content_loader
 from ..forms import EmailAddressForm
 from ..auth import role_required
+from cirrus.email import send_email
 from dmapiclient import HTTPError, APIError
 from dmapiclient.audit import AuditTypes
-from dmutils.email import send_email, generate_token, MandrillException
+from dmutils.email import generate_token
 from dmutils.documents import (
     get_signed_url, get_agreement_document_path, file_is_pdf,
     AGREEMENT_FILENAME, SIGNED_AGREEMENT_PREFIX, COUNTERSIGNED_AGREEMENT_FILENAME,
@@ -378,7 +379,6 @@ def invite_user(supplier_id):
             send_email(
                 form.email_address.data,
                 email_body,
-                current_app.config['DM_MANDRILL_API_KEY'],
                 current_app.config['INVITE_EMAIL_SUBJECT'],
                 current_app.config['INVITE_EMAIL_FROM'],
                 current_app.config['INVITE_EMAIL_NAME'],

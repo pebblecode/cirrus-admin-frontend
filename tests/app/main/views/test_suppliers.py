@@ -10,7 +10,6 @@ from lxml import html
 from nose.tools import eq_
 from nose.tools import assert_equals
 from dmapiclient import HTTPError, APIError
-from dmutils.email import MandrillException
 from dmapiclient.audit import AuditTypes
 from ...helpers import LoggedInApplicationTest, Response
 

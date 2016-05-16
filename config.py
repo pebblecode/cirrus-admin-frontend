@@ -47,7 +47,6 @@ class Config(object):
     SHARED_EMAIL_KEY = None
     INVITE_EMAIL_SALT = 'InviteEmailSalt'
 
-    DM_MANDRILL_API_KEY = None
     INVITE_EMAIL_NAME = 'Cirrus Admin'
     INVITE_EMAIL_FROM = 'enquiries@cirrus.pebblecode.com'
     INVITE_EMAIL_SUBJECT = 'Your Cirrus Marketplace invitation'
@@ -73,7 +72,6 @@ class Test(Config):
     DM_LOG_LEVEL = 'CRITICAL'
     SHARED_EMAIL_KEY = 'KEY'
     INVITE_EMAIL_SALT = 'SALT'
-    DM_MANDRILL_API_KEY = "MANDRILL"
     DM_COMMUNICATIONS_BUCKET = 'cirrus-communications-dev-dev'
     DM_AGREEMENTS_BUCKET = 'cirrus-documents-dev-dev'
 
@@ -90,7 +88,6 @@ class Development(Config):
     SECRET_KEY = "verySecretKey"
     DM_S3_DOCUMENT_BUCKET = "cirrus-documents-dev-dev"
     DM_DOCUMENTS_URL = "https://{}.s3-eu-west-1.amazonaws.com".format(DM_S3_DOCUMENT_BUCKET)
-    DM_MANDRILL_API_KEY = "not_a_real_key"
     SHARED_EMAIL_KEY = "very_secret"
 
 
