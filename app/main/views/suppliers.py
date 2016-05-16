@@ -384,7 +384,7 @@ def invite_user(supplier_id):
                 current_app.config['INVITE_EMAIL_NAME'],
                 ["user-invite"]
             )
-        except MandrillException as e:
+        except Exception as e:
             current_app.logger.error(
                 "Invitation email failed to send error {} to {} supplier {} supplier id {} ".format(
                     str(e),

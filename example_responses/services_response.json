@@ -139,7 +139,7 @@
       "priceString": "\u00a312000 to \u00a325000 per licence per year",
       "priceUnit": "Licence",
       "pricingDocument": "PROACTIS G Cloud CM Document.pdf",
-      "pricingDocumentURL": "https://assets.digitalmarketplace.service.gov.uk/documents/92335/5687123785023488-pricing-document.pdf",
+      "pricingDocumentURL": "https://assets.cirrus.pebblecode.com/documents/92335/5687123785023488-pricing-document.pdf",
       "provisioningTime": "NA",
       "restrictAdministratorPermissions": {
         "assurance": "Service provider assertion",
@@ -172,7 +172,7 @@
         "Reduced risk on supplier non-performance with contract provisions"
       ],
       "serviceDefinitionDocument": "PROACTIS Lot SAAS Contracts Management.pdf",
-      "serviceDefinitionDocumentURL": "https://assets.digitalmarketplace.service.gov.uk/documents/92335/5687123785023488-service-definition-document.pdf",
+      "serviceDefinitionDocumentURL": "https://assets.cirrus.pebblecode.com/documents/92335/5687123785023488-service-definition-document.pdf",
       "serviceFeatures": [
         "Central electronic repository of all supplier contracts",
         "Scheduled monitoring ensures that contract performance is periodically reviewed",
@@ -204,7 +204,7 @@
         "value": true
       },
       "sfiaRateDocument": "PROACTIS G-Cloud SFIA Document.pdf",
-      "sfiaRateDocumentURL": "https://assets.digitalmarketplace.service.gov.uk/documents/92335/5687123785023488-sfia-rate-card.pdf",
+      "sfiaRateDocumentURL": "https://assets.cirrus.pebblecode.com/documents/92335/5687123785023488-sfia-rate-card.pdf",
       "status": "published",
       "supplierId": 92335,
       "supplierName": "PROACTIS Group Ltd",
@@ -228,7 +228,7 @@
         "Tablet"
       ],
       "termsAndConditionsDocument": "G Cloud PROACTIS Terms and Conditions.pdf",
-      "termsAndConditionsDocumentURL": "https://assets.digitalmarketplace.service.gov.uk/documents/92335/5687123785023488-terms-and-conditions.pdf",
+      "termsAndConditionsDocumentURL": "https://assets.cirrus.pebblecode.com/documents/92335/5687123785023488-terms-and-conditions.pdf",
       "thirdPartyComplianceMonitoring": {
         "assurance": "Service provider assertion",
         "value": true

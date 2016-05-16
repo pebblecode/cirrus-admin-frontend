@@ -49,7 +49,7 @@ class Config(object):
 
     INVITE_EMAIL_NAME = 'Cirrus Admin'
     INVITE_EMAIL_FROM = 'enquiries@cirrus.pebblecode.com'
-    INVITE_EMAIL_SUBJECT = 'Your Cirrus Marketplace invitation'
+    INVITE_EMAIL_SUBJECT = 'Your Cirrus invitation'
     CREATE_USER_PATH = 'suppliers/create-user'
 
     @staticmethod

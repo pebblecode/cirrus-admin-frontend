@@ -531,10 +531,9 @@ class TestSupplierInviteUserView(LoggedInApplicationTest):
         send_email.assert_called_once_with(
             'this@isvalid.com',
             mock.ANY,
-            'MANDRILL',
-            'Your Digital Marketplace invitation',
-            'enquiries@digitalmarketplace.service.gov.uk',
-            'Digital Marketplace Admin',
+            'Your Cirrus invitation',
+            'enquiries@cirrus.pebblecode.com',
+            'Cirrus Admin',
             ["user-invite"]
         )
 
@@ -556,7 +555,6 @@ class TestSupplierInviteUserView(LoggedInApplicationTest):
 
         send_email.assert_called_once_with(
             'this@isvalid.com',
-            mock.ANY,
             mock.ANY,
             mock.ANY,
             mock.ANY,
@@ -596,7 +594,7 @@ class TestSupplierInviteUserView(LoggedInApplicationTest):
     def test_should_be_a_503_if_email_fails(self, data_api_client, send_email):
         data_api_client.get_supplier.return_value = self.load_example_listing("supplier_response")
         data_api_client.find_users.return_value = self.load_example_listing("users_response")
-        send_email.side_effect = MandrillException("Arrrgh")
+        send_email.side_effect = Exception("Arrrgh")
         res = self.client.post(
             "/admin/suppliers/1234/invite-user",
             data={
@@ -606,10 +604,9 @@ class TestSupplierInviteUserView(LoggedInApplicationTest):
         send_email.assert_called_once_with(
             'this@isvalid.com',
             mock.ANY,
-            'MANDRILL',
-            'Your Digital Marketplace invitation',
-            'enquiries@digitalmarketplace.service.gov.uk',
-            'Digital Marketplace Admin',
+            'Your Cirrus invitation',
+            'enquiries@cirrus.pebblecode.com',
+            'Cirrus Admin',
             ["user-invite"]
         )
 
