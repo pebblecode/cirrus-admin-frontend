@@ -16,7 +16,7 @@ var dmToolkitRoot = bowerRoot + '/digitalmarketplace-frontend-toolkit/toolkit';
 var sspContentRoot = bowerRoot + '/digitalmarketplace-frameworks';
 var assetsFolder = repoRoot + 'app/assets';
 var staticFolder = repoRoot + 'app/static';
-var baseTemplateFolder = repoRoot + 'node_modules/cirrus-base-template';
+var baseTemplateFolder = npmRoot + '/cirrus-base-template';
 var baseTemplateAssetsFolder = baseTemplateFolder + '/assets';
 var baseTemplateLayoutsFolder = baseTemplateFolder + '/views/layouts';
 
