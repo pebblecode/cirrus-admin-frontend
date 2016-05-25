@@ -61,6 +61,7 @@ bower_components
 npm-debug.log
 app/assets/scss/toolkit
 app/templates/govuk
+app/templates/cirrus-base
 app/templates/toolkit
 app/content
 
