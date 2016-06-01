@@ -27,6 +27,7 @@ var jsDistributionFile = 'application.js';
 
 // CSS paths
 var cssSourceGlob = assetsFolder + '/scss/application*.scss';
+var cirrusBaseSourceGlob = assetsFolder + '/cirrus-base/govuk-template*.scss';
 var cssDistributionFolder = staticFolder + '/stylesheets';
 
 // Configuration
@@ -117,6 +118,21 @@ gulp.task('sass', function () {
   return stream;
 });
 
+gulp.task('cirrus-base', function () {
+  var stream = gulp.src(cirrusBaseSourceGlob)
+    .pipe(filelog('Compressing Cirrus SCSS files'))
+    .pipe(
+      sass(sassOptions[environment]))
+        .on('error', logErrorAndExit)
+    .pipe(gulp.dest(cssDistributionFolder));
+
+  stream.on('end', function () {
+    console.log('💾  Compressed Cirrus CSS saved as .css files in ' + cssDistributionFolder);
+  });
+
+  return stream;
+});
+
 gulp.task('js', function () {
   var stream = gulp.src(jsSourceFile)
     .pipe(filelog('Compressing JavaScript files'))
@@ -150,9 +166,18 @@ function copyFactory(resourceName, sourceFolder, targetFolder) {
 }
 
 gulp.task(
+  'copy:template_assets:sass',
+  copyFactory(
+    "GOV.UK template Sass",
+    baseTemplateAssetsFolder + '/stylesheets',
+    assetsFolder + '/cirrus-base'
+  )
+);
+
+gulp.task(
   'copy:template_assets:stylesheets',
   copyFactory(
-    "GOV.UK template stylesheets",
+    "GOV.UK template CSS",
     baseTemplateAssetsFolder + '/stylesheets',
     staticFolder + '/stylesheets'
   )
@@ -263,6 +288,7 @@ gulp.task(
   'copy',
   [
     'copy:ssp_content',
+    'copy:template_assets:sass',
     'copy:template_assets:images',
     'copy:template_assets:stylesheets',
     'copy:template_assets:javascripts',
