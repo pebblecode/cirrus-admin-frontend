@@ -18,7 +18,7 @@ class Config(object):
     SESSION_COOKIE_HTTPONLY = True
     SESSION_COOKIE_SECURE = True
     DM_S3_DOCUMENT_BUCKET = None
-    DM_DOCUMENTS_URL = 'https://assets.cirrus.dev.pebblecode.com'
+    DM_DOCUMENTS_URL = 'https://assets.preview.inoket.com'
     DM_DATA_API_URL = None
     DM_DATA_API_AUTH_TOKEN = None
     SECRET_KEY = None
@@ -48,7 +48,7 @@ class Config(object):
     INVITE_EMAIL_SALT = 'InviteEmailSalt'
 
     INVITE_EMAIL_NAME = 'Cirrus Admin'
-    INVITE_EMAIL_FROM = 'enquiries@cirrus.pebblecode.com'
+    INVITE_EMAIL_FROM = 'enquiries@inoket.com'
     INVITE_EMAIL_SUBJECT = 'Your Cirrus invitation'
     CREATE_USER_PATH = 'suppliers/create-user'
 
@@ -66,27 +66,27 @@ class Test(Config):
     DEBUG = True
     AUTHENTICATION = True
     WTF_CSRF_ENABLED = False
-    DM_DOCUMENTS_URL = 'https://assets.test.cirrus.pebblecode.com'
+    DM_DOCUMENTS_URL = 'https://assets.test.inoket.com'
     SECRET_KEY = "test_secret"
 
     DM_LOG_LEVEL = 'CRITICAL'
     SHARED_EMAIL_KEY = 'KEY'
     INVITE_EMAIL_SALT = 'SALT'
-    DM_COMMUNICATIONS_BUCKET = 'cirrus-communications-dev-dev'
-    DM_AGREEMENTS_BUCKET = 'cirrus-documents-dev-dev'
+    DM_COMMUNICATIONS_BUCKET = 'inoket-communications-preview-preview'
+    DM_AGREEMENTS_BUCKET = 'inoket-documents-preview-preview'
 
 
 class Development(Config):
     DEBUG = False
     SESSION_COOKIE_SECURE = False
     AUTHENTICATION = True
-    DM_COMMUNICATIONS_BUCKET = 'cirrus-communications-dev-dev'
-    DM_AGREEMENTS_BUCKET = 'cirrus-documents-dev-dev'
+    DM_COMMUNICATIONS_BUCKET = 'inoket-communications-preview-preview'
+    DM_AGREEMENTS_BUCKET = 'inoket-documents-preview-preview'
 
     DM_DATA_API_URL = os.getenv('DM_DATA_API_URL', "http://localhost:5000")
     DM_DATA_API_AUTH_TOKEN = os.getenv('DM_API_AUTH_TOKEN', "myToken")
     SECRET_KEY = "verySecretKey"
-    DM_S3_DOCUMENT_BUCKET = "cirrus-documents-dev-dev"
+    DM_S3_DOCUMENT_BUCKET = "inoket-documents-preview-preview"
     DM_DOCUMENTS_URL = "https://{}.s3-eu-west-1.amazonaws.com".format(DM_S3_DOCUMENT_BUCKET)
     SHARED_EMAIL_KEY = "very_secret"
 
@@ -95,14 +95,14 @@ class Live(Config):
     DEBUG = False
     AUTHENTICATION = True
     DM_HTTP_PROTO = 'https'
-    DM_DOCUMENTS_URL = 'https://assets.cirrus.pebblecode.com'
+    DM_DOCUMENTS_URL = 'https://assets.inoket.com'
 
 
 class Staging(Config):
     DEBUG = False
     AUTHENTICATION = True
     WTF_CSRF_ENABLED = False
-    DM_DOCUMENTS_URL = 'https://assets.cirrus.pebblecode.com'
+    DM_DOCUMENTS_URL = 'https://assets.inoket.com'
 
 
 configs = {
