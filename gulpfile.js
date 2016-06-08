@@ -5,6 +5,8 @@ var sass = require('gulp-sass');
 var filelog = require('gulp-filelog');
 var include = require('gulp-include');
 var colours = require('colors/safe');
+var path = require('path');
+var runSequence = require('run-sequence');
 
 // Paths
 var environment;
@@ -13,7 +15,7 @@ var bowerRoot = repoRoot + 'bower_components';
 var npmRoot = repoRoot + 'node_modules';
 var govukToolkitRoot = npmRoot + '/govuk_frontend_toolkit';
 var dmToolkitRoot = bowerRoot + '/digitalmarketplace-frontend-toolkit/toolkit';
-var sspContentRoot = bowerRoot + '/digitalmarketplace-frameworks';
+var sspContentRoot = npmRoot + '/cirrus-frameworks';
 var assetsFolder = repoRoot + 'app/assets';
 var staticFolder = repoRoot + 'app/static';
 var baseTemplateFolder = npmRoot + '/cirrus-base-template';
@@ -78,7 +80,7 @@ var logErrorAndExit = function logErrorAndExit(err) {
   printError('message', err.message);
   printError('file name', err.fileName);
   printError('line number', err.lineNumber);
-  process.exit(1);
+  this.emit('end');
 
 };
 
@@ -164,6 +166,34 @@ function copyFactory(resourceName, sourceFolder, targetFolder) {
   };
 
 }
+
+gulp.task(
+  'copy:local_base_template_repo',
+  copyFactory(
+    "Copying local changes to cirrus-base-template",
+    path.resolve(__dirname, '../cirrus-base-template/'),
+    baseTemplateFolder
+  )
+)
+
+gulp.task(
+  'copy:all_local',
+  function(cb){
+    runSequence(
+      'copy:local_base_template_repo', 
+      'copy:govuk_template',
+      'copy:template_assets:sass',
+      'copy:template_assets:images',
+      'copy:template_assets:stylesheets',
+      'copy:template_assets:javascripts',
+      'cirrus-base',
+      function shouldBeDone() {
+        console.log('**** Local Base template copying and compiling complete. ****')
+        cb();
+      }
+    )
+  }
+);
 
 gulp.task(
   'copy:template_assets:sass',
@@ -270,8 +300,14 @@ gulp.task('watch', ['build:development'], function () {
     console.log('File ' + event.path + ' was ' + event.type + ' running tasks...');
   };
 
+  var localBaseTempalteRepoWatcher = gulp.watch([ 
+    path.resolve(__dirname, '../cirrus-base-template/**/*') ], [
+      'copy:all_local'
+    ]);
+
   cssWatcher.on('change', notice);
   jsWatcher.on('change', notice);
+  localBaseTempalteRepoWatcher.on('change', notice);
 });
 
 gulp.task('set_environment_to_development', function (cb) {
@@ -309,6 +345,7 @@ gulp.task(
   function() {
     gulp.start('sass');
     gulp.start('js');
+    gulp.start('cirrus-base');
   }
 );
 
