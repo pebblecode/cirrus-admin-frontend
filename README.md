@@ -4,7 +4,7 @@
 [![Requirements Status](https://requires.io/github/alphagov/digitalmarketplace-admin-frontend/requirements.svg?branch=master)](https://requires.io/github/alphagov/digitalmarketplace-admin-frontend/requirements/?branch=master)
 
 
-Frontend administration application for the digital marketplace.
+Frontend administration application for Inoket.
 
 - Python app, based on the [Flask framework](http://flask.pocoo.org/)
 

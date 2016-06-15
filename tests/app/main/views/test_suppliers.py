@@ -90,7 +90,7 @@ class TestSupplierUsersView(LoggedInApplicationTest):
 
         self.assertEquals(200, response.status_code)
         self.assertIn(
-            "This supplier has no users on the Digital Marketplace",
+            "This supplier has no users on Inoket",
             response.get_data(as_text=True)
         )
 
@@ -276,7 +276,7 @@ class TestSupplierServicesView(LoggedInApplicationTest):
 
         self.assertEquals(200, response.status_code)
         self.assertIn(
-            "This supplier has no services on the Digital Marketplace",
+            "This supplier has no services on Inoket",
             response.get_data(as_text=True)
         )
 
