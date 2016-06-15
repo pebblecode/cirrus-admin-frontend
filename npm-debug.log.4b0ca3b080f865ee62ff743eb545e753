@@ -1,0 +1,1459 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose readDependencies loading dependencies from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/package.json
+5 verbose install where, deps [ '/Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend',
+5 verbose install   [ 'bower',
+5 verbose install     'del',
+5 verbose install     'govuk_frontend_toolkit',
+5 verbose install     'cirrus-base-template',
+5 verbose install     'cirrus-frameworks',
+5 verbose install     'gulp',
+5 verbose install     'gulp-filelog',
+5 verbose install     'gulp-include',
+5 verbose install     'gulp-sass',
+5 verbose install     'gulp-shell',
+5 verbose install     'gulp-uglifyjs',
+5 verbose install     'colors' ] ]
+6 verbose install where, peers [ '/Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend', [] ]
+7 verbose installManyTop reading for lifecycle /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/package.json
+8 info preinstall digitalmarketplace-admin-frontend@0.0.1
+9 verbose installManyTop reading scoped package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/bower/package.json
+10 verbose installManyTop reading scoped package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template/package.json
+11 verbose installManyTop reading scoped package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks/package.json
+12 verbose installManyTop reading scoped package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/colors/package.json
+13 verbose installManyTop reading scoped package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/del/package.json
+14 verbose installManyTop reading scoped package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/govuk_frontend_toolkit/package.json
+15 verbose installManyTop reading scoped package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/gulp/package.json
+16 verbose installManyTop reading scoped package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/gulp-filelog/package.json
+17 verbose installManyTop reading scoped package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/gulp-include/package.json
+18 verbose installManyTop reading scoped package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/gulp-sass/package.json
+19 verbose installManyTop reading scoped package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/gulp-shell/package.json
+20 verbose installManyTop reading scoped package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/gulp-uglifyjs/package.json
+21 info package.json cirrus-base-template@0.0.4 No description
+22 info package.json gulp@3.8.7 No license field.
+23 info package.json gulp-filelog@0.4.1 No license field.
+24 verbose readDependencies loading dependencies from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/package.json
+25 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/bower/package.json
+26 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template/package.json
+27 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks/package.json
+28 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/colors/package.json
+29 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/del/package.json
+30 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/govuk_frontend_toolkit/package.json
+31 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/gulp/package.json
+32 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/gulp-filelog/package.json
+33 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/gulp-include/package.json
+34 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/gulp-sass/package.json
+35 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/gulp-shell/package.json
+36 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/gulp-uglifyjs/package.json
+37 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/.bin/bower/package.json
+38 verbose targetResolver reading package data from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/.bin/gulp/package.json
+39 verbose already installed skipping colors@1.1.2 /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+40 verbose already installed skipping bower@1.7.1 /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+41 verbose already installed skipping del@1.1.1 /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+42 verbose already installed skipping govuk_frontend_toolkit@3.1.0 /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+43 silly cache add args [ 'cirrus-base-template@github:pebblecode/cirrus-base-template',
+43 silly cache add   null ]
+44 verbose cache add spec cirrus-base-template@github:pebblecode/cirrus-base-template
+45 silly cache add args [ 'cirrus-frameworks@github:pebblecode/cirrus-frameworks',
+45 silly cache add   null ]
+46 verbose cache add spec cirrus-frameworks@github:pebblecode/cirrus-frameworks
+47 verbose already installed skipping gulp@3.8.7 /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+48 verbose already installed skipping gulp-filelog@0.4.1 /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+49 verbose already installed skipping gulp-include@1.1.1 /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+50 verbose already installed skipping gulp-sass@2.0.4 /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+51 verbose already installed skipping gulp-shell@0.2.9 /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+52 verbose already installed skipping gulp-uglifyjs@0.6.0 /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+53 silly cache add parsed spec Result {
+53 silly cache add   raw: 'cirrus-base-template@github:pebblecode/cirrus-base-template',
+53 silly cache add   scope: null,
+53 silly cache add   name: 'cirrus-base-template',
+53 silly cache add   rawSpec: 'github:pebblecode/cirrus-base-template',
+53 silly cache add   spec: 'github:pebblecode/cirrus-base-template',
+53 silly cache add   type: 'hosted',
+53 silly cache add   hosted:
+53 silly cache add    { type: 'github',
+53 silly cache add      ssh: 'git@github.com:pebblecode/cirrus-base-template.git',
+53 silly cache add      sshUrl: 'git+ssh://git@github.com/pebblecode/cirrus-base-template.git',
+53 silly cache add      httpsUrl: 'git+https://github.com/pebblecode/cirrus-base-template.git',
+53 silly cache add      gitUrl: 'git://github.com/pebblecode/cirrus-base-template.git',
+53 silly cache add      shortcut: 'github:pebblecode/cirrus-base-template',
+53 silly cache add      directUrl: 'https://raw.githubusercontent.com/pebblecode/cirrus-base-template/master/package.json' } }
+54 verbose addRemoteGit caching github:pebblecode/cirrus-base-template
+55 verbose addRemoteGit pebblecode/cirrus-base-template is a repository hosted by github
+56 silly tryGitProto attempting to clone git://github.com/pebblecode/cirrus-base-template.git
+57 silly tryClone cloning pebblecode/cirrus-base-template via git://github.com/pebblecode/cirrus-base-template.git
+58 verbose tryClone git-github-com-pebblecode-cirrus-base-template-git-22381000 not in flight; caching
+59 silly cache add parsed spec Result {
+59 silly cache add   raw: 'cirrus-frameworks@github:pebblecode/cirrus-frameworks',
+59 silly cache add   scope: null,
+59 silly cache add   name: 'cirrus-frameworks',
+59 silly cache add   rawSpec: 'github:pebblecode/cirrus-frameworks',
+59 silly cache add   spec: 'github:pebblecode/cirrus-frameworks',
+59 silly cache add   type: 'hosted',
+59 silly cache add   hosted:
+59 silly cache add    { type: 'github',
+59 silly cache add      ssh: 'git@github.com:pebblecode/cirrus-frameworks.git',
+59 silly cache add      sshUrl: 'git+ssh://git@github.com/pebblecode/cirrus-frameworks.git',
+59 silly cache add      httpsUrl: 'git+https://github.com/pebblecode/cirrus-frameworks.git',
+59 silly cache add      gitUrl: 'git://github.com/pebblecode/cirrus-frameworks.git',
+59 silly cache add      shortcut: 'github:pebblecode/cirrus-frameworks',
+59 silly cache add      directUrl: 'https://raw.githubusercontent.com/pebblecode/cirrus-frameworks/master/package.json' } }
+60 verbose addRemoteGit caching github:pebblecode/cirrus-frameworks
+61 verbose addRemoteGit pebblecode/cirrus-frameworks is a repository hosted by github
+62 silly tryGitProto attempting to clone git://github.com/pebblecode/cirrus-frameworks.git
+63 silly tryClone cloning pebblecode/cirrus-frameworks via git://github.com/pebblecode/cirrus-frameworks.git
+64 verbose tryClone git-github-com-pebblecode-cirrus-frameworks-git-b2d8ad2c not in flight; caching
+65 info git [ 'config', '--get', 'remote.origin.url' ]
+66 info git [ 'config', '--get', 'remote.origin.url' ]
+67 silly validateExistingRemote pebblecode/cirrus-frameworks remote.origin.url: git://github.com/pebblecode/cirrus-frameworks.git
+68 verbose validateExistingRemote pebblecode/cirrus-frameworks is updating existing cached remote /Users/aislingfoley/.npm/_git-remotes/git-github-com-pebblecode-cirrus-frameworks-git-b2d8ad2c
+69 info git [ 'fetch', '-a', 'origin' ]
+70 silly validateExistingRemote pebblecode/cirrus-base-template remote.origin.url: git://github.com/pebblecode/cirrus-base-template.git
+71 verbose validateExistingRemote pebblecode/cirrus-base-template is updating existing cached remote /Users/aislingfoley/.npm/_git-remotes/git-github-com-pebblecode-cirrus-base-template-git-22381000
+72 info git [ 'fetch', '-a', 'origin' ]
+73 verbose updateRemote git fetch -a origin (git://github.com/pebblecode/cirrus-base-template.git)
+74 verbose setPermissions pebblecode/cirrus-base-template set permissions on /Users/aislingfoley/.npm/_git-remotes/git-github-com-pebblecode-cirrus-base-template-git-22381000
+75 verbose resolveHead pebblecode/cirrus-base-template original treeish: master
+76 info git [ 'rev-list', '-n1', 'master' ]
+77 silly resolveHead pebblecode/cirrus-base-template resolved treeish: 29ac93305541efdb730b4d8a70e5b5ce5cfd51be
+78 verbose resolveHead pebblecode/cirrus-base-template resolved Git URL: git://github.com/pebblecode/cirrus-base-template.git#29ac93305541efdb730b4d8a70e5b5ce5cfd51be
+79 silly resolveHead Git working directory: /var/folders/v8/3nlq76d54dggj1c9vbln5wzw0000gn/T/npm-9273-ff6700f3/git-cache-c909279f0082/29ac93305541efdb730b4d8a70e5b5ce5cfd51be
+80 info git [ 'clone',
+80 info git   '/Users/aislingfoley/.npm/_git-remotes/git-github-com-pebblecode-cirrus-base-template-git-22381000',
+80 info git   '/var/folders/v8/3nlq76d54dggj1c9vbln5wzw0000gn/T/npm-9273-ff6700f3/git-cache-c909279f0082/29ac93305541efdb730b4d8a70e5b5ce5cfd51be' ]
+81 verbose updateRemote git fetch -a origin (git://github.com/pebblecode/cirrus-frameworks.git)
+82 verbose setPermissions pebblecode/cirrus-frameworks set permissions on /Users/aislingfoley/.npm/_git-remotes/git-github-com-pebblecode-cirrus-frameworks-git-b2d8ad2c
+83 verbose resolveHead pebblecode/cirrus-frameworks original treeish: master
+84 info git [ 'rev-list', '-n1', 'master' ]
+85 silly resolveHead pebblecode/cirrus-frameworks resolved treeish: 8f2f3796e8d8ccb7dd805c7e9345f1f595e74e02
+86 verbose resolveHead pebblecode/cirrus-frameworks resolved Git URL: git://github.com/pebblecode/cirrus-frameworks.git#8f2f3796e8d8ccb7dd805c7e9345f1f595e74e02
+87 silly resolveHead Git working directory: /var/folders/v8/3nlq76d54dggj1c9vbln5wzw0000gn/T/npm-9273-ff6700f3/git-cache-1589f9af4f2d/8f2f3796e8d8ccb7dd805c7e9345f1f595e74e02
+88 info git [ 'clone',
+88 info git   '/Users/aislingfoley/.npm/_git-remotes/git-github-com-pebblecode-cirrus-frameworks-git-b2d8ad2c',
+88 info git   '/var/folders/v8/3nlq76d54dggj1c9vbln5wzw0000gn/T/npm-9273-ff6700f3/git-cache-1589f9af4f2d/8f2f3796e8d8ccb7dd805c7e9345f1f595e74e02' ]
+89 verbose cloneResolved pebblecode/cirrus-base-template clone Cloning into '/var/folders/v8/3nlq76d54dggj1c9vbln5wzw0000gn/T/npm-9273-ff6700f3/git-cache-c909279f0082/29ac93305541efdb730b4d8a70e5b5ce5cfd51be'...
+89 verbose cloneResolved done.
+90 info git [ 'checkout', '29ac93305541efdb730b4d8a70e5b5ce5cfd51be' ]
+91 verbose checkoutTreeish pebblecode/cirrus-base-template checkout Note: checking out '29ac93305541efdb730b4d8a70e5b5ce5cfd51be'.
+91 verbose checkoutTreeish
+91 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+91 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+91 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+91 verbose checkoutTreeish
+91 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+91 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+91 verbose checkoutTreeish
+91 verbose checkoutTreeish   git checkout -b <new-branch-name>
+91 verbose checkoutTreeish
+91 verbose checkoutTreeish HEAD is now at 29ac933... bump up the version
+92 verbose addLocalDirectory /Users/aislingfoley/.npm/cirrus-base-template/0.0.4/package.tgz not in flight; packing
+93 verbose tar pack [ '/Users/aislingfoley/.npm/cirrus-base-template/0.0.4/package.tgz',
+93 verbose tar pack   '/var/folders/v8/3nlq76d54dggj1c9vbln5wzw0000gn/T/npm-9273-ff6700f3/git-cache-c909279f0082/29ac93305541efdb730b4d8a70e5b5ce5cfd51be' ]
+94 verbose tarball /Users/aislingfoley/.npm/cirrus-base-template/0.0.4/package.tgz
+95 verbose folder /var/folders/v8/3nlq76d54dggj1c9vbln5wzw0000gn/T/npm-9273-ff6700f3/git-cache-c909279f0082/29ac93305541efdb730b4d8a70e5b5ce5cfd51be
+96 verbose addLocalTarball adding from inside cache /Users/aislingfoley/.npm/cirrus-base-template/0.0.4/package.tgz
+97 verbose addRemoteGit data._from: pebblecode/cirrus-base-template
+98 verbose addRemoteGit data._resolved: git://github.com/pebblecode/cirrus-base-template.git#29ac93305541efdb730b4d8a70e5b5ce5cfd51be
+99 silly cache afterAdd cirrus-base-template@0.0.4
+100 verbose afterAdd /Users/aislingfoley/.npm/cirrus-base-template/0.0.4/package/package.json not in flight; writing
+101 verbose afterAdd /Users/aislingfoley/.npm/cirrus-base-template/0.0.4/package/package.json written
+102 verbose cloneResolved pebblecode/cirrus-frameworks clone Cloning into '/var/folders/v8/3nlq76d54dggj1c9vbln5wzw0000gn/T/npm-9273-ff6700f3/git-cache-1589f9af4f2d/8f2f3796e8d8ccb7dd805c7e9345f1f595e74e02'...
+102 verbose cloneResolved done.
+103 info git [ 'checkout', '8f2f3796e8d8ccb7dd805c7e9345f1f595e74e02' ]
+104 verbose checkoutTreeish pebblecode/cirrus-frameworks checkout Note: checking out '8f2f3796e8d8ccb7dd805c7e9345f1f595e74e02'.
+104 verbose checkoutTreeish
+104 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+104 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+104 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+104 verbose checkoutTreeish
+104 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+104 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+104 verbose checkoutTreeish
+104 verbose checkoutTreeish   git checkout -b <new-branch-name>
+104 verbose checkoutTreeish
+104 verbose checkoutTreeish HEAD is now at 8f2f379... bump version
+105 verbose addLocalDirectory /Users/aislingfoley/.npm/cirrus-frameworks/0.0.5/package.tgz not in flight; packing
+106 verbose tar pack [ '/Users/aislingfoley/.npm/cirrus-frameworks/0.0.5/package.tgz',
+106 verbose tar pack   '/var/folders/v8/3nlq76d54dggj1c9vbln5wzw0000gn/T/npm-9273-ff6700f3/git-cache-1589f9af4f2d/8f2f3796e8d8ccb7dd805c7e9345f1f595e74e02' ]
+107 verbose tarball /Users/aislingfoley/.npm/cirrus-frameworks/0.0.5/package.tgz
+108 verbose folder /var/folders/v8/3nlq76d54dggj1c9vbln5wzw0000gn/T/npm-9273-ff6700f3/git-cache-1589f9af4f2d/8f2f3796e8d8ccb7dd805c7e9345f1f595e74e02
+109 verbose addLocalTarball adding from inside cache /Users/aislingfoley/.npm/cirrus-frameworks/0.0.5/package.tgz
+110 verbose addRemoteGit data._from: pebblecode/cirrus-frameworks
+111 verbose addRemoteGit data._resolved: git://github.com/pebblecode/cirrus-frameworks.git#8f2f3796e8d8ccb7dd805c7e9345f1f595e74e02
+112 silly cache afterAdd cirrus-frameworks@0.0.5
+113 verbose afterAdd /Users/aislingfoley/.npm/cirrus-frameworks/0.0.5/package/package.json not in flight; writing
+114 verbose afterAdd /Users/aislingfoley/.npm/cirrus-frameworks/0.0.5/package/package.json written
+115 silly install resolved [ { name: 'cirrus-base-template',
+115 silly install resolved     version: '0.0.4',
+115 silly install resolved     description: '',
+115 silly install resolved     main: 'index.js',
+115 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+115 silly install resolved     repository:
+115 silly install resolved      { type: 'git',
+115 silly install resolved        url: 'git+https://github.com/pebblecode/cirrus-base-template.git' },
+115 silly install resolved     author: '',
+115 silly install resolved     license: 'ISC',
+115 silly install resolved     bugs: { url: 'https://github.com/pebblecode/cirrus-base-template/issues' },
+115 silly install resolved     homepage: 'https://github.com/pebblecode/cirrus-base-template#readme',
+115 silly install resolved     gitHead: '29ac93305541efdb730b4d8a70e5b5ce5cfd51be',
+115 silly install resolved     readme: 'ERROR: No README data found!',
+115 silly install resolved     _id: 'cirrus-base-template@0.0.4',
+115 silly install resolved     _shasum: '1f6bf71efb01043158319766bc695c2d06a4a0bd',
+115 silly install resolved     _from: 'pebblecode/cirrus-base-template',
+115 silly install resolved     _resolved: 'git://github.com/pebblecode/cirrus-base-template.git#29ac93305541efdb730b4d8a70e5b5ce5cfd51be' },
+115 silly install resolved   { name: 'cirrus-frameworks',
+115 silly install resolved     version: '0.0.5',
+115 silly install resolved     description: 'Framework Schema/Metadata for Cirrus',
+115 silly install resolved     main: 'index.js',
+115 silly install resolved     directories: { test: 'tests' },
+115 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+115 silly install resolved     repository:
+115 silly install resolved      { type: 'git',
+115 silly install resolved        url: 'git+https://github.com/pebblecode/cirrus-frameworks.git' },
+115 silly install resolved     author: '',
+115 silly install resolved     license: 'ISC',
+115 silly install resolved     bugs: { url: 'https://github.com/pebblecode/cirrus-frameworks/issues' },
+115 silly install resolved     homepage: 'https://github.com/pebblecode/cirrus-frameworks#readme',
+115 silly install resolved     gitHead: '8f2f3796e8d8ccb7dd805c7e9345f1f595e74e02',
+115 silly install resolved     readme: 'Digital Marketplace content\n===========================\nYAML definitions of Inoket’s procurement frameworks.\n\nTerminology\n-----------\n\n* Multiquestion: A multi-question is a question which contains a questions key, which lets us reuse the same summary\n  tables markup so that each row represents a group of related questions (rather than just being limited to one\n  question).\n\nQuestion keys\n-------------\n\n* `question` name of the question, displayed in forms and summary tables (required)\n* `question_advice` a note about the question asked, usually giving some more information about what it means \n   and why it is being asked\n* `type` type of the question input, used to find the related toolkit form template (required)\n* `name` short question name to use in summary tables instead of the full question. Also used to\n  generate the URL slug for addressable questions\n* `empty_message` a message to display instead of "Answer required" if question wasn\'t answered\n* `hint` hint text to display after the question, eg advice about how to best format you answer\n* `optional` if set to `true` makes the question optional\n* `options` a list of possible values for the types that support them. Each option consists of:\n    * `label` text displayed on the option label (required)\n    * `value` value submitted to the server when the option is selected\n    * `filter_label` [currently unused] text displayed in the buyer frontend filters list instead of label\n    * `description` additional text displayed after the option label (used for `lot` question)\n* `validations` a list of validation errors related to the field. Each validation consists of:\n    * `name` the error message key that should match the validation error returned by the API (required)\n    * `message` text of the message that will be displayed by the frontend app (required)\n* `depends` describes the service conditions that must be met for question to be displayed. Right now, only used to list the\n  lots the question applies to. Each depend rule consists of:\n    * `"on"` service data key name to use for comparison (e.g. "lot" for lots)\n    * `being` a list of acceptable values for the key. If service data key value matches one of the values in the `being` the\n       question is kept, otherwise the question is removed from the section for the given service\n* `limits` a dictionary of validation/type requirements to limit the possible question values. Available fields:\n    * `min_value` integer, sets the minimum value for number questions (default 0)\n    * `max_value` integer, sets the maximum value for number questions (default 100)\n    * `integer_only` boolean, when `true` makes the number question accept only integer values instead of numbers\n    * `format` sets JSON schema \'format\' property for text questions (eg `email`, `uri`)\n* `number_of_items` sets the maximum number of items for list questions (and changes "Add another (N remaining)" list button, defaults to 10)\n* `list_item_name` [currently unused] text displayed in the "Add another ..." button and item names by the list-entry inputs\n* `assuranceApproach` contains the name of the set of possible assurance answers for the question. Assurance answer sets are\n  listed in the supplier frontend.\n* `questions` a list of nested questions (only valid for `multiquestion` questions)\n* `any_of` groups nested questions for "anyOf" validations and helps us return a helpful validation message (only valid for `multiquestion` questions)\n* `fields` a mapping of toolkit form field key to the service data key used for multi-input field types (only valid for `pricing`)\n* `max_length_in_words` sets the limit on question value length in words\n* `smaller` allows for smaller textboxes\n* `unit` a one-character string. The unit for smaller textboxes accepting a unit (ie, pricing or number entry textboxes)\n* `unit_in_full` unit name as a string\n* `unit_position` position of the `unit` character within the textbox.\n    * Permitted values are `after` or `before`\n\n\nSection keys\n-------------\n\nManifest is a list of sections. Each section contains:\n\n* `name` name of the section (required)\n* `editable` controls whether section allows updates for the questions, boolean value\n* `edit_questions` controls whether individual questions can be edited separately (only supported by `multiquestion` questions)\n* `description` text to display after the section name\n* `summary_page_description` text to display between the summary table heading and the table body\n* `step` decides how sections are grouped on (brief) overview pages\n* `questions` a list of section questions (required)\n\nRunning the tests\n-----------------\n\nThe tests check that the YAML files are valid and that they match a schema.\n\nSetup a VirtualEnv\n`make virtualenv`\n\nInstall dependencies\n`make requirements_for_test`\n\nRun the tests\n`make test`\n\nVersioning\n----------\nReleases of this project follow [semantic versioning](http://semver.org/), ie\n> Given a version number MAJOR.MINOR.PATCH, increment the:\n>\n> - MAJOR version when you make incompatible API changes,\n> - MINOR version when you add functionality in a backwards-compatible manner, and\n> - PATCH version when you make backwards-compatible bug fixes.\n\nTo make a new version:\n- update `VERSION.txt` with the new version number\n- commit this change; the first line of the commit message **must** be in the\n  format `Bump version to X.X.X`\n- create a pull request for the version bump\n\nWhen the pull request is merged a Jenkins job will be run to tag the new\nversion.\n',
+115 silly install resolved     readmeFilename: 'README.md',
+115 silly install resolved     _id: 'cirrus-frameworks@0.0.5',
+115 silly install resolved     _shasum: 'eea3449c9d8b33652606db20ef00e4afbc09e842',
+115 silly install resolved     _from: 'pebblecode/cirrus-frameworks',
+115 silly install resolved     _resolved: 'git://github.com/pebblecode/cirrus-frameworks.git#8f2f3796e8d8ccb7dd805c7e9345f1f595e74e02' } ]
+116 info install cirrus-base-template@0.0.4 into /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+117 info install cirrus-frameworks@0.0.5 into /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+118 info installOne cirrus-base-template@0.0.4
+119 verbose installOne of cirrus-base-template to /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend not in flight; installing
+120 info installOne cirrus-frameworks@0.0.5
+121 verbose installOne of cirrus-frameworks to /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend not in flight; installing
+122 verbose lock using /Users/aislingfoley/.npm/_locks/cirrus-base-template-a5da939e1cf3bca4.lock for /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template
+123 verbose lock using /Users/aislingfoley/.npm/_locks/cirrus-frameworks-1e048109f006760f.lock for /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks
+124 silly install write writing cirrus-base-template 0.0.4 to /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template
+125 silly install write writing cirrus-frameworks 0.0.5 to /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks
+126 verbose unbuild node_modules/cirrus-base-template
+127 verbose unbuild node_modules/cirrus-frameworks
+128 info preuninstall cirrus-base-template@0.0.4
+129 info preuninstall cirrus-frameworks@0.0.5
+130 info uninstall cirrus-base-template@0.0.4
+131 info uninstall cirrus-frameworks@0.0.5
+132 verbose unbuild rmStuff cirrus-base-template@0.0.4 from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules
+133 info postuninstall cirrus-base-template@0.0.4
+134 verbose unbuild rmStuff cirrus-frameworks@0.0.5 from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules
+135 info postuninstall cirrus-frameworks@0.0.5
+136 silly gentlyRm /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template is being purged from base /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+137 verbose gentlyRm don't care about contents; nuking /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template
+138 silly gentlyRm /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks is being purged from base /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+139 verbose gentlyRm don't care about contents; nuking /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks
+140 silly vacuum-fs purging /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template
+141 silly vacuum-fs purging /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks
+142 silly vacuum-fs quitting because other entries in /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules
+143 verbose tar unpack /Users/aislingfoley/.npm/cirrus-base-template/0.0.4/package.tgz
+144 verbose tar unpacking to /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template
+145 silly gentlyRm /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template is being purged
+146 verbose gentlyRm don't care about contents; nuking /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template
+147 silly gunzTarPerm modes [ '755', '644' ]
+148 silly vacuum-fs quitting because other entries in /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules
+149 verbose tar unpack /Users/aislingfoley/.npm/cirrus-frameworks/0.0.5/package.tgz
+150 verbose tar unpacking to /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks
+151 silly gentlyRm /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks is being purged
+152 verbose gentlyRm don't care about contents; nuking /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks
+153 silly gunzTarPerm modes [ '755', '644' ]
+154 silly gunzTarPerm extractEntry package.json
+155 silly gunzTarPerm extractEntry package.json
+156 silly gunzTarPerm extractEntry .npmignore
+157 silly gunzTarPerm extractEntry assets/images/apple-touch-icon-120x120.png
+158 silly gunzTarPerm extractEntry .npmignore
+159 silly gunzTarPerm extractEntry README.md
+160 silly gunzTarPerm extractEntry assets/images/apple-touch-icon-152x152.png
+161 silly gunzTarPerm extractEntry assets/images/apple-touch-icon-60x60.png
+162 silly gunzTarPerm extractEntry tests/__init__.py
+163 silly gunzTarPerm extractEntry tests/test_all.py
+164 silly gunzTarPerm extractEntry assets/images/apple-touch-icon-76x76.png
+165 silly gunzTarPerm extractEntry assets/images/favicon.ico
+166 silly gunzTarPerm extractEntry tests/test_generate_schema.py
+167 silly gunzTarPerm extractEntry VERSION.txt
+168 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/manifests/clarification_question.yml
+169 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/manifests/declaration.yml
+170 silly gunzTarPerm extractEntry assets/images/gov.uk_logotype_crown.png
+171 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/manifests/display_brief.yml
+172 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/manifests/edit_brief.yml
+173 silly gunzTarPerm extractEntry assets/images/gov.uk_logotype_crown_invert.png
+174 silly gunzTarPerm extractEntry assets/images/gov.uk_logotype_crown_invert_trans.png
+175 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/manifests/edit_brief_response.yml
+176 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/manifests/edit_submission.yml
+177 silly gunzTarPerm extractEntry assets/images/opengraph-image.png
+178 silly gunzTarPerm extractEntry assets/javascripts/govuk-template.js
+179 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/manifests/output_brief_response.yml
+180 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/messages/dates.yml
+181 silly gunzTarPerm extractEntry assets/javascripts/ie.js
+182 silly gunzTarPerm extractEntry assets/javascripts/vendor/goog/webfont-debug.js
+183 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/messages/homepage-sidebar.yml
+184 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/brief-responses/availabilityOutcomes.yml
+185 silly gunzTarPerm extractEntry assets/stylesheets/fonts.css
+186 silly gunzTarPerm extractEntry assets/stylesheets/_accessibility.scss
+187 silly gunzTarPerm extractEntry assets/stylesheets/_core-print.scss
+188 silly gunzTarPerm extractEntry assets/stylesheets/_footer.scss
+189 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/brief-responses/availabilitySpecialists.yml
+190 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/brief-responses/dayRate.yml
+191 silly gunzTarPerm extractEntry assets/stylesheets/_header.scss
+192 silly gunzTarPerm extractEntry assets/stylesheets/external-links/external-link-24x24.png
+193 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/brief-responses/essentialRequirements.yml
+194 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/brief-responses/niceToHaveRequirements.yml
+195 silly gunzTarPerm extractEntry assets/stylesheets/external-links/external-link-black-12x12.png
+196 silly gunzTarPerm extractEntry assets/stylesheets/external-links/external-link-black-24x24.png
+197 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/brief-responses/respondToEmailAddress.yml
+198 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/brief-responses/supplierName.yml
+199 silly gunzTarPerm extractEntry assets/stylesheets/external-links/external-link.png
+200 silly gunzTarPerm extractEntry assets/stylesheets/fonts/GDSTransportTabular-Bold.eot
+201 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/participantAccessibilityNeeds.yml
+202 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/accessRestrictions.yml
+203 silly gunzTarPerm extractEntry assets/stylesheets/fonts/GDSTransportTabular-Light.eot
+204 silly gunzTarPerm extractEntry assets/stylesheets/fonts/GDSTransportWebsite-Bold.eot
+205 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/backgroundInformation.yml
+206 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/budgetRangeOutcomesParticipants.yml
+207 silly gunzTarPerm extractEntry assets/stylesheets/fonts/GDSTransportWebsite.eot
+208 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/budgetRangeSpecialists.yml
+209 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/contractLength.yml
+210 silly gunzTarPerm extractEntry assets/stylesheets/fonts-ie8.css
+211 silly gunzTarPerm extractEntry assets/stylesheets/_basic.scss
+212 silly gunzTarPerm extractEntry assets/stylesheets/govuk-template-ie6.scss
+213 silly gunzTarPerm extractEntry assets/stylesheets/govuk-template-ie7.scss
+214 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/culturalFitCriteriaOutcomes.yml
+215 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/culturalFitCriteriaSpecialists.yml
+216 silly gunzTarPerm extractEntry assets/stylesheets/govuk-template-ie8.scss
+217 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/culturalWeightingOutcomes.yml
+218 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/culturalWeightingParticipants.yml
+219 silly gunzTarPerm extractEntry assets/stylesheets/govuk-template-print.scss
+220 silly gunzTarPerm extractEntry assets/stylesheets/govuk-template.scss
+221 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/culturalWeightingSpecialists.yml
+222 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/earlyMarketEngagement.yml
+223 silly gunzTarPerm extractEntry assets/stylesheets/images/close.png
+224 silly gunzTarPerm extractEntry assets/stylesheets/images/gov.uk_logotype_crown-1x.png
+225 silly gunzTarPerm extractEntry assets/stylesheets/images/gov.uk_logotype_crown.png
+226 silly gunzTarPerm extractEntry assets/stylesheets/images/govuk-crest-2x.png
+227 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/endUsers.yml
+228 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/essentialRequirementsOutcomes.yml
+229 silly gunzTarPerm extractEntry assets/stylesheets/images/govuk-crest-ie.png
+230 silly gunzTarPerm extractEntry assets/stylesheets/images/govuk-crest.png
+231 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/essentialRequirementsParticipants.yml
+232 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/essentialRequirementsSpecialists.yml
+233 silly gunzTarPerm extractEntry assets/stylesheets/images/open-government-licence.png
+234 silly gunzTarPerm extractEntry assets/stylesheets/images/open-government-licence_2x.png
+235 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/evaluationTypeOutcomes.yml
+236 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/evaluationTypeParticipants.yml
+237 silly gunzTarPerm extractEntry assets/stylesheets/styleguide/_colours.scss
+238 silly gunzTarPerm extractEntry assets/stylesheets/styleguide/_print.scss
+239 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/evaluationTypeSpecialists.yml
+240 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/existingTeamOutcomes.yml
+241 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/existingTeamSpecialists.yml
+242 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/locationOutcomes.yml
+243 silly gunzTarPerm extractEntry views/layouts/govuk_template.html
+244 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/locationParticipants.yml
+245 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/locationSpecialists.yml
+246 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/niceToHaveRequirementsOutcomes.yml
+247 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/niceToHaveRequirementsParticipants.yml
+248 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/niceToHaveRequirementsSpecialists.yml
+249 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/numberOfSuppliersOutcomes.yml
+250 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/numberOfSuppliersParticipants.yml
+251 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/numberOfSuppliersSpecialists.yml
+252 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/organisation.yml
+253 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/outcome.yml
+254 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/additionalTerms.yml
+255 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/participantSpecification.yml
+256 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/participantsPerRound.yml
+257 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/phase.yml
+258 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/priceCriteria.yml
+259 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/priceWeightingOutcomes.yml
+260 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/priceWeightingParticipants.yml
+261 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/priceWeightingSpecialists.yml
+262 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/questionAndAnswerSessionDetails.yml
+263 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/researchAddress.yml
+264 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/researchDates.yml
+265 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/researchFrequency.yml
+266 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/researchOutOfHours.yml
+267 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/researchPlan.yml
+268 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/researchRounds.yml
+269 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/securityClearance.yml
+270 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/specialistRole.yml
+271 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/specialistWork.yml
+272 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/startDate.yml
+273 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/successCriteriaOutcomes.yml
+274 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/successCriteriaParticipants.yml
+275 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/summary.yml
+276 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/technicalWeightingOutcomes.yml
+277 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/technicalWeightingParticipants.yml
+278 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/technicalWeightingSpecialists.yml
+279 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/titleOutcomesParticipants.yml
+280 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/titleSpecialists.yml
+281 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/weightingOutcomes.yml
+282 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/weightingParticipants.yml
+283 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/weightingSpecialists.yml
+284 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/workAlreadyDone.yml
+285 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/workingArrangements.yml
+286 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/briefs/workplaceAddress.yml
+287 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/clarification_question/answer.yml
+288 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/clarification_question/question.yml
+289 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/clarification_question/questionAndAnswer.yml
+290 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/misleadingInformation.yml
+291 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/10WorkingDays.yml
+292 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/MI.yml
+293 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/accurateInformation.yml
+294 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/accuratelyDescribed.yml
+295 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/appropriateTradeRegisters.yml
+296 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/appropriateTradeRegistersNumber.yml
+297 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/bankrupt.yml
+298 verbose write writing to /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template/package.json
+299 info preinstall cirrus-base-template@0.0.4
+300 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/canProvideFromDayOne.yml
+301 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/civilServiceValues.yml
+302 verbose readDependencies loading dependencies from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template/package.json
+303 verbose readDependencies loading dependencies from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template/package.json
+304 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/companyRegistrationNumber.yml
+305 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/confidentialInformation.yml
+306 silly install resolved []
+307 verbose about to build /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template
+308 info build /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template
+309 info linkStuff cirrus-base-template@0.0.4
+310 silly linkStuff cirrus-base-template@0.0.4 has /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules as its parent node_modules
+311 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/conflictOfInterest.yml
+312 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/consistentDelivery.yml
+313 verbose linkBins cirrus-base-template@0.0.4
+314 verbose linkMans cirrus-base-template@0.0.4
+315 verbose rebuildBundles cirrus-base-template@0.0.4
+316 info install cirrus-base-template@0.0.4
+317 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/conspiracyCorruptionBribery.yml
+318 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/contactEmailContractNotice.yml
+319 info postinstall cirrus-base-template@0.0.4
+320 verbose unlock done using /Users/aislingfoley/.npm/_locks/cirrus-base-template-a5da939e1cf3bca4.lock for /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-base-template
+321 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/contactNameContractNotice.yml
+322 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/continuousProfessionalDevelopment.yml
+323 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/currentRegisteredCountry.yml
+324 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/customerSatisfactionProcess.yml
+325 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/cyberEssentials.yml
+326 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/cyberEssentialsPlus.yml
+327 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/distortedCompetition.yml
+328 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/distortingCompetition.yml
+329 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/employersInsurance.yml
+330 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/environmentalSocialLabourLaw.yml
+331 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/environmentallyFriendly.yml
+332 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/equalityAndDiversity.yml
+333 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/establishedInTheUK.yml
+334 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/evidence.yml
+335 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/firstRegistered.yml
+336 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/fraudAndTheft.yml
+337 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/fullAccountability.yml
+338 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/graveProfessionalMisconduct.yml
+339 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/influencedContractingAuthority.yml
+340 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/informationChanges.yml
+341 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/licenceOrMemberRequired.yml
+342 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/licenceOrMemberRequiredDetails.yml
+343 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/GAAR.yml
+344 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/mitigatingFactors.yml
+345 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/mitigatingFactors2.yml
+346 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/nameOfOrganisation.yml
+347 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/offerServicesYourselves.yml
+348 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/ongoingEngagement.yml
+349 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/organisationSize.yml
+350 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/organisedCrime.yml
+351 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/primaryContact.yml
+352 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/primaryContactEmail.yml
+353 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/proofOfClaims.yml
+354 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/publishContracts.yml
+355 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/readUnderstoodGuidance.yml
+356 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/registeredAddress.yml
+357 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/registeredVATNumber.yml
+358 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/requisiteAuthority.yml
+359 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/safeguardOfficialInformation.yml
+360 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/safeguardPersonalData.yml
+361 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/seriousMisrepresentation.yml
+362 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/serviceStandard.yml
+363 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/significantOrPersistentDeficiencies.yml
+364 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/skillsAndCapabilityAssessment.yml
+365 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/skillsAndResources.yml
+366 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/subcontracting.yml
+367 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/taxEvasion.yml
+368 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/technologyCodesOfPractice.yml
+369 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/termsAndConditions.yml
+370 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/termsOfParticipation.yml
+371 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/terrorism.yml
+372 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/tradingNames.yml
+373 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/tradingStatus.yml
+374 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/tradingStatusOther.yml
+375 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/transparentContracting.yml
+376 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/understandHowToAskQuestions.yml
+377 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/understandTool.yml
+378 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/unfairCompetition.yml
+379 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/unspentTaxConvictions.yml
+380 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/declaration/witheldSupportingDocuments.yml
+381 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/outcomesLocations.yml
+382 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/agileCoach.yml
+383 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/agileCoachLocations.yml
+384 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/anonymousRecruitment.yml
+385 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/bespokeSystemInformation.yml
+386 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/businessAnalyst.yml
+387 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/businessAnalystDayRate.yml
+388 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/businessAnalystLocations.yml
+389 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/communicationsManager.yml
+390 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/communicationsManagerDayRate.yml
+391 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/communicationsManagerLocations.yml
+392 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/contentDesigner.yml
+393 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/contentDesignerDayRate.yml
+394 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/contentDesignerLocations.yml
+395 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/dataProtocols.yml
+396 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/delivery.yml
+397 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/deliveryManager.yml
+398 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/deliveryManagerDayRate.yml
+399 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/deliveryManagerLocations.yml
+400 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/deliveryTypes.yml
+401 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/designer.yml
+402 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/designerDayRate.yml
+403 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/designerLocations.yml
+404 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/developer.yml
+405 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/developerDayRate.yml
+406 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/developerLocations.yml
+407 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/helpGovernmentImproveServices.yml
+408 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labAccessibility.yml
+409 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labAddressBuilding.yml
+410 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labAddressPostcode.yml
+411 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labAddressTown.yml
+412 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labBabyChanging.yml
+413 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labCarPark.yml
+414 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labDesktopStreaming.yml
+415 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labDeviceStreaming.yml
+416 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labEyeTracking.yml
+417 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labHosting.yml
+418 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labPrice.yml
+419 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labPublicTransport.yml
+420 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labSize.yml
+421 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labStreaming.yml
+422 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labTechAssistance.yml
+423 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labToilets.yml
+424 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labViewingArea.yml
+425 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labWaitingArea.yml
+426 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/labWiFi.yml
+427 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/lot.yml
+428 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/manageIncentives.yml
+429 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/openStandardsPrinciples.yml
+430 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/agileCoachDayRate.yml
+431 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/performanceAnalysis.yml
+432 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/performanceAnalysisTypes.yml
+433 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/performanceAnalyst.yml
+434 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/performanceAnalystDayRate.yml
+435 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/performanceAnalystLocations.yml
+436 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/portfolioManager.yml
+437 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/portfolioManagerDayRate.yml
+438 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/portfolioManagerLocations.yml
+439 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/productManager.yml
+440 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/productManagerDayRate.yml
+441 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/productManagerLocations.yml
+442 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/programmeManager.yml
+443 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/programmeManagerDayRate.yml
+444 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/programmeManagerLocations.yml
+445 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/qualityAssurance.yml
+446 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/qualityAssuranceDayRate.yml
+447 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/qualityAssuranceLocations.yml
+448 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/recruitFromList.yml
+449 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/recruitLocations.yml
+450 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/recruitMethods.yml
+451 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/security.yml
+452 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/securityConsultant.yml
+453 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/securityConsultantDayRate.yml
+454 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/securityConsultantLocations.yml
+455 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/securityTypes.yml
+456 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/serviceManager.yml
+457 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/serviceManagerDayRate.yml
+458 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/serviceManagerLocations.yml
+459 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/serviceName.yml
+460 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/softwareDevelopment.yml
+461 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/softwareDevelopmentTypes.yml
+462 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/supportAndOperations.yml
+463 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/supportAndOperationsTypes.yml
+464 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/technicalArchitect.yml
+465 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/technicalArchitectDayRate.yml
+466 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/technicalArchitectLocations.yml
+467 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/testingAndAuditing.yml
+468 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/testingAndAuditingTypes.yml
+469 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/userExperienceAndDesign.yml
+470 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/userExperienceAndDesignTypes.yml
+471 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/userResearch.yml
+472 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/userResearchTypes.yml
+473 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/userResearcher.yml
+474 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/userResearcherDayRate.yml
+475 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/userResearcherLocations.yml
+476 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/webOperations.yml
+477 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/webOperationsDayRate.yml
+478 silly gunzTarPerm extractEntry frameworks/digital-outcomes-and-specialists/questions/services/webOperationsLocations.yml
+479 silly gunzTarPerm extractEntry frameworks/g-cloud-6/manifests/display_service.yml
+480 silly gunzTarPerm extractEntry frameworks/g-cloud-6/manifests/edit_service.yml
+481 silly gunzTarPerm extractEntry frameworks/g-cloud-6/manifests/edit_service_as_admin.yml
+482 silly gunzTarPerm extractEntry frameworks/g-cloud-6/manifests/search_filters.yml
+483 silly gunzTarPerm extractEntry frameworks/g-cloud-6/messages/dates.yml
+484 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/otherConsumers.yml
+485 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/analyticsAvailable.yml
+486 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/apiType.yml
+487 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/auditInformationProvided.yml
+488 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/changeImpactAssessment.yml
+489 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/cloudDeploymentModel.yml
+490 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/codeLibraryLanguages.yml
+491 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/configurationTracking.yml
+492 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/dataAtRestProtections.yml
+493 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/dataBackupRecovery.yml
+494 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/dataExtractionRemoval.yml
+495 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/dataManagementLocations.yml
+496 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/dataProtectionBetweenServices.yml
+497 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/dataProtectionBetweenUserAndService.yml
+498 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/dataProtectionWithinService.yml
+499 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/dataRedundantEquipmentAccountsRevoked.yml
+500 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/dataSecureDeletion.yml
+501 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/dataSecureEquipmentDisposal.yml
+502 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/dataStorageMediaDisposal.yml
+503 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/datacentreLocations.yml
+504 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/datacentreProtectionDisclosure.yml
+505 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/datacentreTier.yml
+506 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/datacentresEUCode.yml
+507 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/datacentresSpecifyLocation.yml
+508 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/deprovisioningTime.yml
+509 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/deviceAccessMethod.yml
+510 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/educationPricing.yml
+511 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/elasticCloud.yml
+512 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/eventMonitoring.yml
+513 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/freeOption.yml
+514 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/governanceFramework.yml
+515 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/guaranteedResources.yml
+516 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/hardwareSoftwareVerification.yml
+517 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/id.yml
+518 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/identityAuthenticationControls.yml
+519 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/identityStandards.yml
+520 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/incidentDefinitionPublished.yml
+521 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/incidentEscalation.yml
+522 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/incidentManagementProcess.yml
+523 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/incidentManagementReporting.yml
+524 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/interconnectionMethods.yml
+525 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/legalJurisdiction.yml
+526 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/lot.yml
+527 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/lotName.yml
+528 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/managementInterfaceProtection.yml
+529 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/minimumContractPeriod.yml
+530 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/networksConnected.yml
+531 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/offlineWorking.yml
+532 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/onboardingGuidance.yml
+533 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/openSource.yml
+534 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/openStandardsSupported.yml
+535 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/apiAccess.yml
+536 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/persistentStorage.yml
+537 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/personnelSecurityChecks.yml
+538 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/priceString.yml
+539 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/pricingDocumentURL.yml
+540 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/provisioningTime.yml
+541 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/restrictAdministratorPermissions.yml
+542 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/secureConfigurationManagement.yml
+543 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/secureDesign.yml
+544 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/secureDevelopment.yml
+545 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/selfServiceProvisioning.yml
+546 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceAvailabilityPercentage.yml
+547 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceBenefits.yml
+548 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceConfigurationGuidance.yml
+549 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceDefinitionDocumentURL.yml
+550 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceFeatures.yml
+551 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceManagementModel.yml
+552 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceName.yml
+553 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceOffboarding.yml
+554 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceOnboarding.yml
+555 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceSummary.yml
+556 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceTypesIaaS.yml
+557 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceTypesSCS.yml
+558 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/serviceTypesSaaS.yml
+559 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/servicesManagementSeparation.yml
+560 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/servicesSeparation.yml
+561 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/sfiaRateDocumentURL.yml
+562 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/supportAvailability.yml
+563 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/supportForThirdParties.yml
+564 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/supportResponseTime.yml
+565 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/supportTypes.yml
+566 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/supportedBrowsers.yml
+567 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/supportedDevices.yml
+568 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/terminationCost.yml
+569 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/termsAndConditionsDocumentURL.yml
+570 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/thirdPartyComplianceMonitoring.yml
+571 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/thirdPartyDataSharingInformation.yml
+572 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/thirdPartyRiskAssessment.yml
+573 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/thirdPartySecurityRequirements.yml
+574 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/trainingProvided.yml
+575 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/trialOption.yml
+576 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/userAccessControlManagement.yml
+577 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/userAuthenticateManagement.yml
+578 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/userAuthenticateSupport.yml
+579 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/vatIncluded.yml
+580 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/vendorCertifications.yml
+581 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/vulnerabilityAssessment.yml
+582 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/vulnerabilityMitigationPrioritisation.yml
+583 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/vulnerabilityMonitoring.yml
+584 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/vulnerabilityTimescales.yml
+585 silly gunzTarPerm extractEntry frameworks/g-cloud-6/questions/services/vulnerabilityTracking.yml
+586 silly gunzTarPerm extractEntry frameworks/g-cloud-7/manifests/declaration.yml
+587 silly gunzTarPerm extractEntry frameworks/g-cloud-7/manifests/display_service.yml
+588 silly gunzTarPerm extractEntry frameworks/g-cloud-7/manifests/edit_service.yml
+589 silly gunzTarPerm extractEntry frameworks/g-cloud-7/manifests/edit_service_as_admin.yml
+590 silly gunzTarPerm extractEntry frameworks/g-cloud-7/manifests/edit_submission.yml
+591 silly gunzTarPerm extractEntry frameworks/g-cloud-7/manifests/search_filters.yml
+592 silly gunzTarPerm extractEntry frameworks/g-cloud-7/messages/dates.yml
+593 silly gunzTarPerm extractEntry frameworks/g-cloud-7/messages/homepage-sidebar.yml
+594 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-3.yml
+595 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/AQA3.yml
+596 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/PR2.yml
+597 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/PR3.yml
+598 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/PR4.yml
+599 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/PR5.yml
+600 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1a.yml
+601 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1b.yml
+602 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1ci.yml
+603 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1cii.yml
+604 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1d-i.yml
+605 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1d-ii.yml
+606 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1e.yml
+607 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1f.yml
+608 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1g.yml
+609 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1h.yml
+610 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1i-i.yml
+611 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1i-ii.yml
+612 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1j-i.yml
+613 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1j-ii.yml
+614 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1k.yml
+615 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1l.yml
+616 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1m.yml
+617 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1n.yml
+618 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1o.yml
+619 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1p-i.yml
+620 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1p-ii.yml
+621 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1p-iii.yml
+622 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1p-iv.yml
+623 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1q-i.yml
+624 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1q-ii.yml
+625 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1q-iii.yml
+626 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-1q-iv.yml
+627 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-2a.yml
+628 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ1-2b.yml
+629 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/PR1.yml
+630 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ2-1abcd.yml
+631 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ2-1e.yml
+632 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ2-1f.yml
+633 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ2-1ghijklmn.yml
+634 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ2-2a.yml
+635 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ2-2b.yml
+636 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1a.yml
+637 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1b.yml
+638 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1c.yml
+639 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1d.yml
+640 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1e.yml
+641 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1f.yml
+642 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1g.yml
+643 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1h-i.yml
+644 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1h-ii.yml
+645 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1i-i.yml
+646 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1i-ii.yml
+647 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1j.yml
+648 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ3-1k.yml
+649 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ4-1a.yml
+650 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ4-1b.yml
+651 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ4-1c.yml
+652 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ5-1a.yml
+653 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQ5-2a.yml
+654 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQA2.yml
+655 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQA3.yml
+656 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQA4.yml
+657 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQA5.yml
+658 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQC2.yml
+659 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQC3.yml
+660 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQD2b.yml
+661 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQD2c.yml
+662 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQD2d.yml
+663 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQD2e.yml
+664 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/declaration/SQE2a.yml
+665 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/otherConsumers.yml
+666 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/analyticsAvailable.yml
+667 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/apiType.yml
+668 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/auditInformationProvided.yml
+669 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/changeImpactAssessment.yml
+670 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/cloudDeploymentModel.yml
+671 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/codeLibraryLanguages.yml
+672 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/configurationTracking.yml
+673 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/dataAtRestProtections.yml
+674 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/dataBackupRecovery.yml
+675 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/dataExtractionRemoval.yml
+676 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/dataManagementLocations.yml
+677 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/dataProtectionBetweenServices.yml
+678 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/dataProtectionBetweenUserAndService.yml
+679 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/dataProtectionWithinService.yml
+680 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/dataRedundantEquipmentAccountsRevoked.yml
+681 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/dataSecureDeletion.yml
+682 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/dataSecureEquipmentDisposal.yml
+683 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/dataStorageMediaDisposal.yml
+684 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/datacentreLocations.yml
+685 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/datacentreProtectionDisclosure.yml
+686 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/datacentreTier.yml
+687 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/datacentresEUCode.yml
+688 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/datacentresSpecifyLocation.yml
+689 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/deprovisioningTime.yml
+690 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/deviceAccessMethod.yml
+691 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/educationPricing.yml
+692 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/elasticCloud.yml
+693 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/eventMonitoring.yml
+694 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/freeOption.yml
+695 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/governanceFramework.yml
+696 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/guaranteedResources.yml
+697 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/hardwareSoftwareVerification.yml
+698 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/id.yml
+699 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/identityAuthenticationControls.yml
+700 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/identityStandards.yml
+701 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/incidentDefinitionPublished.yml
+702 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/incidentEscalation.yml
+703 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/incidentManagementProcess.yml
+704 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/incidentManagementReporting.yml
+705 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/interconnectionMethods.yml
+706 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/legalJurisdiction.yml
+707 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/lot.yml
+708 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/lotName.yml
+709 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/managementInterfaceProtection.yml
+710 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/minimumContractPeriod.yml
+711 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/networksConnected.yml
+712 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/offlineWorking.yml
+713 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/onboardingGuidance.yml
+714 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/openSource.yml
+715 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/openStandardsSupported.yml
+716 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/apiAccess.yml
+717 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/persistentStorage.yml
+718 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/personnelSecurityChecks.yml
+719 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/priceString.yml
+720 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/pricingDocumentURL.yml
+721 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/provisioningTime.yml
+722 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/restrictAdministratorPermissions.yml
+723 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/secureConfigurationManagement.yml
+724 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/secureDesign.yml
+725 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/secureDevelopment.yml
+726 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/selfServiceProvisioning.yml
+727 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceAvailabilityPercentage.yml
+728 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceBenefits.yml
+729 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceConfigurationGuidance.yml
+730 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceDefinitionDocumentURL.yml
+731 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceFeatures.yml
+732 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceManagementModel.yml
+733 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceName.yml
+734 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceOffboarding.yml
+735 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceOnboarding.yml
+736 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceSummary.yml
+737 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceTypesIaaS.yml
+738 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceTypesSCS.yml
+739 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/serviceTypesSaaS.yml
+740 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/servicesManagementSeparation.yml
+741 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/servicesSeparation.yml
+742 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/sfiaRateDocumentURL.yml
+743 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/supportAvailability.yml
+744 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/supportForThirdParties.yml
+745 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/supportResponseTime.yml
+746 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/supportTypes.yml
+747 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/supportedBrowsers.yml
+748 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/supportedDevices.yml
+749 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/terminationCost.yml
+750 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/termsAndConditionsDocumentURL.yml
+751 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/thirdPartyComplianceMonitoring.yml
+752 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/thirdPartyDataSharingInformation.yml
+753 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/thirdPartyRiskAssessment.yml
+754 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/thirdPartySecurityRequirements.yml
+755 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/trainingProvided.yml
+756 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/trialOption.yml
+757 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/userAccessControlManagement.yml
+758 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/userAuthenticateManagement.yml
+759 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/userAuthenticateSupport.yml
+760 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/vatIncluded.yml
+761 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/vendorCertifications.yml
+762 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/vulnerabilityAssessment.yml
+763 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/vulnerabilityMitigationPrioritisation.yml
+764 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/vulnerabilityMonitoring.yml
+765 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/vulnerabilityTimescales.yml
+766 silly gunzTarPerm extractEntry frameworks/g-cloud-7/questions/services/vulnerabilityTracking.yml
+767 silly gunzTarPerm extractEntry frameworks/g-cloud-8/manifests/declaration.yml
+768 silly gunzTarPerm extractEntry frameworks/g-cloud-8/manifests/display_service.yml
+769 silly gunzTarPerm extractEntry frameworks/g-cloud-8/manifests/edit_service.yml
+770 silly gunzTarPerm extractEntry frameworks/g-cloud-8/manifests/edit_service_as_admin.yml
+771 silly gunzTarPerm extractEntry frameworks/g-cloud-8/manifests/edit_submission.yml
+772 silly gunzTarPerm extractEntry frameworks/g-cloud-8/manifests/search_filters.yml
+773 silly gunzTarPerm extractEntry frameworks/g-cloud-8/messages/dates.yml
+774 silly gunzTarPerm extractEntry frameworks/g-cloud-8/messages/homepage-sidebar.yml
+775 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/mitigatingFactors.yml
+776 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/GAAR.yml
+777 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/accuratelyDescribed.yml
+778 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/appropriateTradeRegisters.yml
+779 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/appropriateTradeRegistersNumber.yml
+780 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/bankrupt.yml
+781 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/canProvideCloudServices.yml
+782 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/companyRegistrationNumber.yml
+783 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/confidentialInformation.yml
+784 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/conflictOfInterest.yml
+785 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/conspiracyCorruptionBribery.yml
+786 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/contactEmailContractNotice.yml
+787 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/contactNameContractNotice.yml
+788 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/currentRegisteredCountry.yml
+789 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/cyberEssentials.yml
+790 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/cyberEssentialsPlus.yml
+791 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/distortedCompetition.yml
+792 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/distortingCompetition.yml
+793 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/dunsNumber.yml
+794 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/employersInsurance.yml
+795 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/environmentalSocialLabourLaw.yml
+796 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/equalityAndDiversity.yml
+797 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/establishedInTheUK.yml
+798 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/firstRegistered.yml
+799 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/fraudAndTheft.yml
+800 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/graveProfessionalMisconduct.yml
+801 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/influencedContractingAuthority.yml
+802 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/licenceOrMemberRequired.yml
+803 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/licenceOrMemberRequiredDetails.yml
+804 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/misleadingInformation.yml
+805 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/MI.yml
+806 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/mitigatingFactors2.yml
+807 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/nameOfOrganisation.yml
+808 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/organisationSize.yml
+809 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/organisedCrime.yml
+810 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/primaryContact.yml
+811 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/primaryContactEmail.yml
+812 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/proofOfClaims.yml
+813 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/readUnderstoodGuidance.yml
+814 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/registeredAddress.yml
+815 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/registeredAddressBuilding.yml
+816 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/registeredAddressPostcode.yml
+817 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/registeredAddressTown.yml
+818 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/registeredVATNumber.yml
+819 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/seriousMisrepresentation.yml
+820 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/servicesHaveOrSupport.yml
+821 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/significantOrPersistentDeficiencies.yml
+822 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/skillsAndResources.yml
+823 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/subcontracting.yml
+824 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/taxEvasion.yml
+825 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/termsAndConditions.yml
+826 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/termsOfParticipation.yml
+827 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/terrorism.yml
+828 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/tradingNames.yml
+829 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/tradingStatus.yml
+830 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/tradingStatusOther.yml
+831 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/understandHowToAskQuestions.yml
+832 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/understandTool.yml
+833 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/unspentTaxConvictions.yml
+834 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/declaration/witheldSupportingDocuments.yml
+835 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/otherConsumers.yml
+836 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/analyticsAvailable.yml
+837 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/apiType.yml
+838 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/auditInformationProvided.yml
+839 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/changeImpactAssessment.yml
+840 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/cloudDeploymentModel.yml
+841 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/codeLibraryLanguages.yml
+842 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/configurationTracking.yml
+843 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/dataAtRestProtections.yml
+844 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/dataBackupRecovery.yml
+845 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/dataExtractionRemoval.yml
+846 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/dataManagementLocations.yml
+847 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/dataProtectionBetweenServices.yml
+848 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/dataProtectionBetweenUserAndService.yml
+849 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/dataProtectionWithinService.yml
+850 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/dataRedundantEquipmentAccountsRevoked.yml
+851 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/dataSecureDeletion.yml
+852 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/dataSecureEquipmentDisposal.yml
+853 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/dataStorageMediaDisposal.yml
+854 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/datacentreLocations.yml
+855 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/datacentreProtectionDisclosure.yml
+856 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/datacentreTier.yml
+857 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/datacentresEUCode.yml
+858 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/datacentresSpecifyLocation.yml
+859 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/deprovisioningTime.yml
+860 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/deviceAccessMethod.yml
+861 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/educationPricing.yml
+862 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/elasticCloud.yml
+863 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/eventMonitoring.yml
+864 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/freeOption.yml
+865 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/governanceFramework.yml
+866 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/guaranteedResources.yml
+867 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/hardwareSoftwareVerification.yml
+868 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/id.yml
+869 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/identityAuthenticationControls.yml
+870 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/identityStandards.yml
+871 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/incidentDefinitionPublished.yml
+872 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/incidentEscalation.yml
+873 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/incidentManagementProcess.yml
+874 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/incidentManagementReporting.yml
+875 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/interconnectionMethods.yml
+876 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/legalJurisdiction.yml
+877 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/lot.yml
+878 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/lotName.yml
+879 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/managementInterfaceProtection.yml
+880 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/minimumContractPeriod.yml
+881 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/networksConnected.yml
+882 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/offlineWorking.yml
+883 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/onboardingGuidance.yml
+884 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/openSource.yml
+885 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/openStandardsSupported.yml
+886 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/apiAccess.yml
+887 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/persistentStorage.yml
+888 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/personnelSecurityChecks.yml
+889 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/priceString.yml
+890 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/pricingDocumentURL.yml
+891 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/provisioningTime.yml
+892 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/restrictAdministratorPermissions.yml
+893 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/secureConfigurationManagement.yml
+894 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/secureDesign.yml
+895 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/secureDevelopment.yml
+896 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/selfServiceProvisioning.yml
+897 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceAvailabilityPercentage.yml
+898 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceBenefits.yml
+899 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceConfigurationGuidance.yml
+900 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceDefinitionDocumentURL.yml
+901 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceFeatures.yml
+902 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceManagementModel.yml
+903 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceName.yml
+904 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceOffboarding.yml
+905 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceOnboarding.yml
+906 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceSummary.yml
+907 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceTypesIaaS.yml
+908 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceTypesSCS.yml
+909 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/serviceTypesSaaS.yml
+910 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/servicesManagementSeparation.yml
+911 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/servicesSeparation.yml
+912 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/sfiaRateDocumentURL.yml
+913 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/supportAvailability.yml
+914 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/supportForThirdParties.yml
+915 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/supportResponseTime.yml
+916 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/supportTypes.yml
+917 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/supportedBrowsers.yml
+918 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/supportedDevices.yml
+919 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/terminationCost.yml
+920 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/termsAndConditionsDocumentURL.yml
+921 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/thirdPartyComplianceMonitoring.yml
+922 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/thirdPartyDataSharingInformation.yml
+923 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/thirdPartyRiskAssessment.yml
+924 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/thirdPartySecurityRequirements.yml
+925 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/trainingProvided.yml
+926 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/trialOption.yml
+927 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/userAccessControlManagement.yml
+928 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/userAuthenticateManagement.yml
+929 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/userAuthenticateSupport.yml
+930 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/vatIncluded.yml
+931 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/vendorCertifications.yml
+932 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/vulnerabilityAssessment.yml
+933 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/vulnerabilityMitigationPrioritisation.yml
+934 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/vulnerabilityMonitoring.yml
+935 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/vulnerabilityTimescales.yml
+936 silly gunzTarPerm extractEntry frameworks/g-cloud-8/questions/services/vulnerabilityTracking.yml
+937 silly gunzTarPerm extractEntry frameworks/inoket-1/manifests/declaration.yml
+938 silly gunzTarPerm extractEntry frameworks/inoket-1/manifests/display_service.yml
+939 silly gunzTarPerm extractEntry frameworks/inoket-1/manifests/edit_service.yml
+940 silly gunzTarPerm extractEntry frameworks/inoket-1/manifests/edit_service_as_admin.yml
+941 silly gunzTarPerm extractEntry frameworks/inoket-1/manifests/edit_submission.yml
+942 silly gunzTarPerm extractEntry frameworks/inoket-1/manifests/search_filters.yml
+943 silly gunzTarPerm extractEntry frameworks/inoket-1/messages/dates.yml
+944 silly gunzTarPerm extractEntry frameworks/inoket-1/messages/homepage-sidebar.yml
+945 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/mitigatingFactors.yml
+946 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/GAAR.yml
+947 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/accuratelyDescribed.yml
+948 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/appropriateTradeRegisters.yml
+949 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/appropriateTradeRegistersNumber.yml
+950 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/bankrupt.yml
+951 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/canProvideCloudServices.yml
+952 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/companyRegistrationNumber.yml
+953 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/confidentialInformation.yml
+954 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/conflictOfInterest.yml
+955 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/conspiracyCorruptionBribery.yml
+956 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/contactEmailContractNotice.yml
+957 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/contactNameContractNotice.yml
+958 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/currentRegisteredCountry.yml
+959 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/cyberEssentials.yml
+960 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/cyberEssentialsPlus.yml
+961 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/distortedCompetition.yml
+962 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/distortingCompetition.yml
+963 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/dunsNumber.yml
+964 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/employersInsurance.yml
+965 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/environmentalSocialLabourLaw.yml
+966 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/equalityAndDiversity.yml
+967 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/establishedInTheUK.yml
+968 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/firstRegistered.yml
+969 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/fraudAndTheft.yml
+970 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/graveProfessionalMisconduct.yml
+971 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/influencedContractingAuthority.yml
+972 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/licenceOrMemberRequired.yml
+973 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/licenceOrMemberRequiredDetails.yml
+974 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/misleadingInformation.yml
+975 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/MI.yml
+976 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/mitigatingFactors2.yml
+977 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/nameOfOrganisation.yml
+978 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/organisationSize.yml
+979 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/organisedCrime.yml
+980 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/primaryContact.yml
+981 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/primaryContactEmail.yml
+982 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/proofOfClaims.yml
+983 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/readUnderstoodGuidance.yml
+984 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/registeredAddress.yml
+985 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/registeredAddressBuilding.yml
+986 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/registeredAddressPostcode.yml
+987 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/registeredAddressTown.yml
+988 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/registeredVATNumber.yml
+989 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/seriousMisrepresentation.yml
+990 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/servicesHaveOrSupport.yml
+991 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/significantOrPersistentDeficiencies.yml
+992 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/simpleYesNo.yml
+993 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/skillsAndResources.yml
+994 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/subcontracting.yml
+995 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/taxEvasion.yml
+996 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/termsAndConditions.yml
+997 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/termsOfParticipation.yml
+998 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/terrorism.yml
+999 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/tradingNames.yml
+1000 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/tradingStatus.yml
+1001 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/tradingStatusOther.yml
+1002 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/understandHowToAskQuestions.yml
+1003 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/understandTool.yml
+1004 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/unspentTaxConvictions.yml
+1005 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/declaration/witheldSupportingDocuments.yml
+1006 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/otherConsumers.yml
+1007 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/analyticsAvailable.yml
+1008 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/apiType.yml
+1009 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/auditInformationProvided.yml
+1010 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/changeImpactAssessment.yml
+1011 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/cloudDeploymentModel.yml
+1012 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/codeLibraryLanguages.yml
+1013 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/configurationTracking.yml
+1014 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/dataAtRestProtections.yml
+1015 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/dataBackupRecovery.yml
+1016 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/dataExtractionRemoval.yml
+1017 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/dataManagementLocations.yml
+1018 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/dataProtectionBetweenServices.yml
+1019 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/dataProtectionBetweenUserAndService.yml
+1020 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/dataProtectionWithinService.yml
+1021 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/dataRedundantEquipmentAccountsRevoked.yml
+1022 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/dataSecureDeletion.yml
+1023 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/dataSecureEquipmentDisposal.yml
+1024 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/dataStorageMediaDisposal.yml
+1025 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/datacentreLocations.yml
+1026 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/datacentreProtectionDisclosure.yml
+1027 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/datacentreTier.yml
+1028 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/datacentresEUCode.yml
+1029 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/datacentresSpecifyLocation.yml
+1030 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/deprovisioningTime.yml
+1031 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/deviceAccessMethod.yml
+1032 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/educationPricing.yml
+1033 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/elasticCloud.yml
+1034 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/eventMonitoring.yml
+1035 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/freeOption.yml
+1036 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/governanceFramework.yml
+1037 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/guaranteedResources.yml
+1038 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/hardwareSoftwareVerification.yml
+1039 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/id.yml
+1040 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/identityAuthenticationControls.yml
+1041 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/identityStandards.yml
+1042 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/incidentDefinitionPublished.yml
+1043 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/incidentEscalation.yml
+1044 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/incidentManagementProcess.yml
+1045 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/incidentManagementReporting.yml
+1046 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/interconnectionMethods.yml
+1047 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/legalJurisdiction.yml
+1048 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/lot.yml
+1049 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/lotName.yml
+1050 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/managementInterfaceProtection.yml
+1051 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/minimumContractPeriod.yml
+1052 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/networksConnected.yml
+1053 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/offlineWorking.yml
+1054 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/onboardingGuidance.yml
+1055 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/openSource.yml
+1056 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/openStandardsSupported.yml
+1057 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/apiAccess.yml
+1058 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/persistentStorage.yml
+1059 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/personnelSecurityChecks.yml
+1060 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/priceString.yml
+1061 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/pricingDocumentURL.yml
+1062 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/provisioningTime.yml
+1063 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/restrictAdministratorPermissions.yml
+1064 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/secureConfigurationManagement.yml
+1065 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/secureDesign.yml
+1066 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/secureDevelopment.yml
+1067 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/selfServiceProvisioning.yml
+1068 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceAvailabilityPercentage.yml
+1069 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceBenefits.yml
+1070 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceConfigurationGuidance.yml
+1071 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceDefinitionDocumentURL.yml
+1072 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceFeatures.yml
+1073 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceManagementModel.yml
+1074 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceName.yml
+1075 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceOffboarding.yml
+1076 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceOnboarding.yml
+1077 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceSummary.yml
+1078 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceTypesIaaS.yml
+1079 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceTypesSCS.yml
+1080 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/serviceTypesSaaS.yml
+1081 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/servicesManagementSeparation.yml
+1082 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/servicesSeparation.yml
+1083 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/sfiaRateDocumentURL.yml
+1084 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/supportAvailability.yml
+1085 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/supportForThirdParties.yml
+1086 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/supportResponseTime.yml
+1087 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/supportTypes.yml
+1088 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/supportedBrowsers.yml
+1089 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/supportedDevices.yml
+1090 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/terminationCost.yml
+1091 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/termsAndConditionsDocumentURL.yml
+1092 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/thirdPartyComplianceMonitoring.yml
+1093 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/thirdPartyDataSharingInformation.yml
+1094 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/thirdPartyRiskAssessment.yml
+1095 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/thirdPartySecurityRequirements.yml
+1096 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/trainingProvided.yml
+1097 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/trialOption.yml
+1098 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/userAccessControlManagement.yml
+1099 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/userAuthenticateManagement.yml
+1100 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/userAuthenticateSupport.yml
+1101 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/vatIncluded.yml
+1102 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/vendorCertifications.yml
+1103 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/vulnerabilityAssessment.yml
+1104 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/vulnerabilityMitigationPrioritisation.yml
+1105 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/vulnerabilityMonitoring.yml
+1106 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/vulnerabilityTimescales.yml
+1107 silly gunzTarPerm extractEntry frameworks/inoket-1/questions/services/vulnerabilityTracking.yml
+1108 silly gunzTarPerm extractEntry frameworks/inoket-2/manifests/declaration.yml
+1109 silly gunzTarPerm extractEntry frameworks/inoket-2/manifests/display_service.yml
+1110 silly gunzTarPerm extractEntry frameworks/inoket-2/manifests/edit_service.yml
+1111 silly gunzTarPerm extractEntry frameworks/inoket-2/manifests/edit_service_as_admin.yml
+1112 silly gunzTarPerm extractEntry frameworks/inoket-2/manifests/edit_submission.yml
+1113 silly gunzTarPerm extractEntry frameworks/inoket-2/manifests/search_filters.yml
+1114 silly gunzTarPerm extractEntry frameworks/inoket-2/messages/dates.yml
+1115 silly gunzTarPerm extractEntry frameworks/inoket-2/messages/homepage-sidebar.yml
+1116 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/mitigatingFactors.yml
+1117 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/GAAR.yml
+1118 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/accuratelyDescribed.yml
+1119 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/appropriateTradeRegisters.yml
+1120 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/appropriateTradeRegistersNumber.yml
+1121 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/bankrupt.yml
+1122 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/canProvideCloudServices.yml
+1123 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/companyRegistrationNumber.yml
+1124 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/confidentialInformation.yml
+1125 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/conflictOfInterest.yml
+1126 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/conspiracyCorruptionBribery.yml
+1127 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/contactEmailContractNotice.yml
+1128 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/contactNameContractNotice.yml
+1129 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/currentRegisteredCountry.yml
+1130 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/cyberEssentials.yml
+1131 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/cyberEssentialsPlus.yml
+1132 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/distortedCompetition.yml
+1133 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/distortingCompetition.yml
+1134 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/dunsNumber.yml
+1135 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/employersInsurance.yml
+1136 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/environmentalSocialLabourLaw.yml
+1137 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/equalityAndDiversity.yml
+1138 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/establishedInTheUK.yml
+1139 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/firstRegistered.yml
+1140 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/fraudAndTheft.yml
+1141 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/graveProfessionalMisconduct.yml
+1142 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/influencedContractingAuthority.yml
+1143 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/licenceOrMemberRequired.yml
+1144 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/licenceOrMemberRequiredDetails.yml
+1145 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/misleadingInformation.yml
+1146 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/MI.yml
+1147 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/mitigatingFactors2.yml
+1148 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/nameOfOrganisation.yml
+1149 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/organisationSize.yml
+1150 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/organisedCrime.yml
+1151 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/primaryContact.yml
+1152 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/primaryContactEmail.yml
+1153 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/proofOfClaims.yml
+1154 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/readUnderstoodGuidance.yml
+1155 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/registeredAddress.yml
+1156 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/registeredAddressBuilding.yml
+1157 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/registeredAddressPostcode.yml
+1158 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/registeredAddressTown.yml
+1159 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/registeredVATNumber.yml
+1160 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/seriousMisrepresentation.yml
+1161 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/servicesHaveOrSupport.yml
+1162 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/significantOrPersistentDeficiencies.yml
+1163 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/simpleYesNo.yml
+1164 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/skillsAndResources.yml
+1165 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/subcontracting.yml
+1166 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/taxEvasion.yml
+1167 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/termsAndConditions.yml
+1168 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/termsOfParticipation.yml
+1169 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/terrorism.yml
+1170 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/tradingNames.yml
+1171 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/tradingStatus.yml
+1172 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/tradingStatusOther.yml
+1173 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/understandHowToAskQuestions.yml
+1174 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/understandTool.yml
+1175 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/unspentTaxConvictions.yml
+1176 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/declaration/witheldSupportingDocuments.yml
+1177 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/otherConsumers.yml
+1178 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/analyticsAvailable.yml
+1179 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/apiType.yml
+1180 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/auditInformationProvided.yml
+1181 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/changeImpactAssessment.yml
+1182 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/cloudDeploymentModel.yml
+1183 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/codeLibraryLanguages.yml
+1184 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/configurationTracking.yml
+1185 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/dataAtRestProtections.yml
+1186 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/dataBackupRecovery.yml
+1187 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/dataExtractionRemoval.yml
+1188 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/dataManagementLocations.yml
+1189 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/dataProtectionBetweenServices.yml
+1190 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/dataProtectionBetweenUserAndService.yml
+1191 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/dataProtectionWithinService.yml
+1192 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/dataRedundantEquipmentAccountsRevoked.yml
+1193 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/dataSecureDeletion.yml
+1194 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/dataSecureEquipmentDisposal.yml
+1195 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/dataStorageMediaDisposal.yml
+1196 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/datacentreLocations.yml
+1197 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/datacentreProtectionDisclosure.yml
+1198 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/datacentreTier.yml
+1199 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/datacentresEUCode.yml
+1200 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/datacentresSpecifyLocation.yml
+1201 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/deprovisioningTime.yml
+1202 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/deviceAccessMethod.yml
+1203 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/educationPricing.yml
+1204 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/elasticCloud.yml
+1205 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/eventMonitoring.yml
+1206 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/freeOption.yml
+1207 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/governanceFramework.yml
+1208 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/guaranteedResources.yml
+1209 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/hardwareSoftwareVerification.yml
+1210 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/id.yml
+1211 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/identityAuthenticationControls.yml
+1212 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/identityStandards.yml
+1213 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/incidentDefinitionPublished.yml
+1214 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/incidentEscalation.yml
+1215 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/incidentManagementProcess.yml
+1216 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/incidentManagementReporting.yml
+1217 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/interconnectionMethods.yml
+1218 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/legalJurisdiction.yml
+1219 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/lot.yml
+1220 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/lotName.yml
+1221 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/managementInterfaceProtection.yml
+1222 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/minimumContractPeriod.yml
+1223 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/networksConnected.yml
+1224 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/offlineWorking.yml
+1225 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/onboardingGuidance.yml
+1226 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/openSource.yml
+1227 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/openStandardsSupported.yml
+1228 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/apiAccess.yml
+1229 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/persistentStorage.yml
+1230 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/personnelSecurityChecks.yml
+1231 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/priceString.yml
+1232 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/pricingDocumentURL.yml
+1233 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/provisioningTime.yml
+1234 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/restrictAdministratorPermissions.yml
+1235 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/secureConfigurationManagement.yml
+1236 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/secureDesign.yml
+1237 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/secureDevelopment.yml
+1238 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/selfServiceProvisioning.yml
+1239 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceAvailabilityPercentage.yml
+1240 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceBenefits.yml
+1241 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceConfigurationGuidance.yml
+1242 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceDefinitionDocumentURL.yml
+1243 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceFeatures.yml
+1244 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceManagementModel.yml
+1245 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceName.yml
+1246 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceOffboarding.yml
+1247 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceOnboarding.yml
+1248 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceSummary.yml
+1249 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceTypesIaaS.yml
+1250 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceTypesSCS.yml
+1251 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/serviceTypesSaaS.yml
+1252 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/servicesManagementSeparation.yml
+1253 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/servicesSeparation.yml
+1254 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/sfiaRateDocumentURL.yml
+1255 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/supportAvailability.yml
+1256 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/supportForThirdParties.yml
+1257 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/supportResponseTime.yml
+1258 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/supportTypes.yml
+1259 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/supportedBrowsers.yml
+1260 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/supportedDevices.yml
+1261 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/terminationCost.yml
+1262 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/termsAndConditionsDocumentURL.yml
+1263 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/thirdPartyComplianceMonitoring.yml
+1264 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/thirdPartyDataSharingInformation.yml
+1265 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/thirdPartyRiskAssessment.yml
+1266 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/thirdPartySecurityRequirements.yml
+1267 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/trainingProvided.yml
+1268 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/trialOption.yml
+1269 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/userAccessControlManagement.yml
+1270 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/userAuthenticateManagement.yml
+1271 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/userAuthenticateSupport.yml
+1272 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/vatIncluded.yml
+1273 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/vendorCertifications.yml
+1274 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/vulnerabilityAssessment.yml
+1275 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/vulnerabilityMitigationPrioritisation.yml
+1276 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/vulnerabilityMonitoring.yml
+1277 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/vulnerabilityTimescales.yml
+1278 silly gunzTarPerm extractEntry frameworks/inoket-2/questions/services/vulnerabilityTracking.yml
+1279 silly gunzTarPerm extractEntry json_schemas/howto.txt
+1280 silly gunzTarPerm extractEntry json_schemas/services-inoket-1-supply_teachers.json
+1281 silly gunzTarPerm extractEntry json_schemas/services-inoket-2-supply_teachers.json
+1282 silly gunzTarPerm extractEntry Makefile
+1283 silly gunzTarPerm extractEntry .travis.yml
+1284 silly gunzTarPerm extractEntry requirements_for_test.txt
+1285 silly gunzTarPerm extractEntry schema_generator/__init__.py
+1286 silly gunzTarPerm extractEntry schemas/manifests.json
+1287 silly gunzTarPerm extractEntry schemas/messages.json
+1288 silly gunzTarPerm extractEntry schemas/questions.json
+1289 silly gunzTarPerm extractEntry scripts/generate-schemas.py
+1290 silly gunzTarPerm extractEntry scripts/generate_dos_questions.sh
+1291 silly gunzTarPerm extractEntry setup.cfg
+1292 silly gunzTarPerm extractEntry tag_version.sh
+1293 silly gunzTarPerm extractEntry requirements.txt
+1294 verbose write writing to /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks/package.json
+1295 info preinstall cirrus-frameworks@0.0.5
+1296 verbose readDependencies loading dependencies from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks/package.json
+1297 verbose readDependencies loading dependencies from /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks/package.json
+1298 silly install resolved []
+1299 verbose about to build /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks
+1300 info build /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks
+1301 info linkStuff cirrus-frameworks@0.0.5
+1302 silly linkStuff cirrus-frameworks@0.0.5 has /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules as its parent node_modules
+1303 verbose linkBins cirrus-frameworks@0.0.5
+1304 verbose linkMans cirrus-frameworks@0.0.5
+1305 verbose rebuildBundles cirrus-frameworks@0.0.5
+1306 info install cirrus-frameworks@0.0.5
+1307 info postinstall cirrus-frameworks@0.0.5
+1308 verbose unlock done using /Users/aislingfoley/.npm/_locks/cirrus-frameworks-1e048109f006760f.lock for /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/node_modules/cirrus-frameworks
+1309 info build /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+1310 info linkStuff digitalmarketplace-admin-frontend@0.0.1
+1311 silly linkStuff digitalmarketplace-admin-frontend@0.0.1 has /Users/aislingfoley/Sites/cirrus as its parent node_modules
+1312 verbose linkBins digitalmarketplace-admin-frontend@0.0.1
+1313 verbose linkMans digitalmarketplace-admin-frontend@0.0.1
+1314 verbose rebuildBundles digitalmarketplace-admin-frontend@0.0.1
+1315 verbose rebuildBundles [ '.bin',
+1315 verbose rebuildBundles   'bower',
+1315 verbose rebuildBundles   'cirrus-base-template',
+1315 verbose rebuildBundles   'cirrus-frameworks',
+1315 verbose rebuildBundles   'colors',
+1315 verbose rebuildBundles   'del',
+1315 verbose rebuildBundles   'govuk_frontend_toolkit',
+1315 verbose rebuildBundles   'gulp',
+1315 verbose rebuildBundles   'gulp-filelog',
+1315 verbose rebuildBundles   'gulp-include',
+1315 verbose rebuildBundles   'gulp-sass',
+1315 verbose rebuildBundles   'gulp-shell',
+1315 verbose rebuildBundles   'gulp-uglifyjs' ]
+1316 info install digitalmarketplace-admin-frontend@0.0.1
+1317 info postinstall digitalmarketplace-admin-frontend@0.0.1
+1318 verbose unsafe-perm in lifecycle true
+1319 info prepublish digitalmarketplace-admin-frontend@0.0.1
+1320 verbose validateInstall loading /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend/package.json for validation
+1321 verbose exit [ 0, true ]
+1322 verbose stack Error: write EIO
+1322 verbose stack     at Object.exports._errnoException (util.js:874:11)
+1322 verbose stack     at exports._exceptionWithHostPort (util.js:897:20)
+1322 verbose stack     at WriteWrap.afterWrite (net.js:763:14)
+1323 verbose cwd /Users/aislingfoley/Sites/cirrus/cirrus-admin-frontend
+1324 error Darwin 15.5.0
+1325 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+1326 error node v4.2.2
+1327 error npm  v2.14.7
+1328 error code EIO
+1329 error errno EIO
+1330 error syscall write
+1331 error write EIO
+1332 error If you need help, you may report this error at:
+1332 error     <https://github.com/npm/npm/issues>
+1333 verbose exit [ 1, true ]

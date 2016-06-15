@@ -532,7 +532,7 @@ class TestSupplierInviteUserView(LoggedInApplicationTest):
             'this@isvalid.com',
             mock.ANY,
             'Your Cirrus invitation',
-            'enquiries@cirrus.pebblecode.com',
+            'enquiries@inoket.com',
             'Cirrus Admin',
             ["user-invite"]
         )
@@ -605,7 +605,7 @@ class TestSupplierInviteUserView(LoggedInApplicationTest):
             'this@isvalid.com',
             mock.ANY,
             'Your Cirrus invitation',
-            'enquiries@cirrus.pebblecode.com',
+            'enquiries@inoket.com',
             'Cirrus Admin',
             ["user-invite"]
         )
